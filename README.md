@@ -3,3 +3,5 @@
 Challenge-point:
 
 Asger - 1
+
+Nicklas -1
