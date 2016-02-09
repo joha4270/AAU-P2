@@ -2,17 +2,17 @@
 
 Challenge-point:
 
-Asger - 1
+Asger: 1
 
-Christian - 2
+Christian: 2
 
-Nicklas - 2
+Nicklas: 2
 
-Kennet - 2
+Kennet: 2
 
-Emil - 2
+Emil: 2
 
-Ibrahim  2
+Ibrahim:  1
 
-Johannes
+Johannes: 1
 
