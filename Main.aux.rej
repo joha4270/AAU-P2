@@ -1,0 +1,23 @@
+diff a/Main.aux b/Main.aux	(rejected hunks)
+@@ -108,21 +108,7 @@
+ \@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{7}{appendix.A}}
+ \@writefile{lof}{\addvspace {10\p@ }}
+ \@writefile{lot}{\addvspace {10\p@ }}
+->>>>>>> f5817d7b8cb3e5e9df364d6fd0834a79386e2e46
+ \newlabel{[CHAPTER] Appendix}{{A}{7}{Appendix}{appendix.A}{}}
+ \newlabel{LastPage}{{}{7}{}{page.7}{}}
+ \xdef\lastpage@lastpage{7}
+ \xdef\lastpage@lastpageHy{7}
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+->>>>>>> 9c0ed97dc2e4c394f14f3a257b2b7eac1a7d0e15
+-=======
+-<<<<<<< HEAD
+-=======
+->>>>>>> 9c0ed97dc2e4c394f14f3a257b2b7eac1a7d0e15
+->>>>>>> 21f94dfafdd446947a09818ec295198fbe2e4e81
+->>>>>>> 5232d1a4d0615517df382ae3104b4cd08f4de052
+-=======
+->>>>>>> 0571ea629b4f34ce701aebec895067f318858ccc
+-=======
+->>>>>>> f5817d7b8cb3e5e9df364d6fd0834a79386e2e46
