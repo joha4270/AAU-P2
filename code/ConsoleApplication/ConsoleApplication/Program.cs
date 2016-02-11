@@ -15,7 +15,7 @@ namespace ConsoleApplication
 
 		private static void MagicSetup()
 		{
-			const int defaultBpm = 120;
+			const int defaultBpm = 110;
 			
 			Dictionary<char, Type> types = new Dictionary<char, Type>();
 			char c = 'a';
