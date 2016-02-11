@@ -6,7 +6,7 @@ Asger - 1
 
 Christian: 4
 
-Nicklas - 2
+Nicklas - 3
 
 Kennet: 3
 
