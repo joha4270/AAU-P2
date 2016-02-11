@@ -1,0 +1,16 @@
+-=Markov Kæder=-
+Man kan sagtens bruge markovkæder til at generere musik, og der er mange, veldokumenterede, variationer af principperne der hver især giver forskellige resultater.
+Det er næsten umuligt at lave et program der ikke blot forsøger at immitere et korpus, og alle variationer af markovkæderne lider enten af for stor tilfældighed eller også kopierer de næsten musik-korpuset fuldstændigt.
+
+Matematikken er dårligt forklaret i Algorithmic Composition-bogen, men især de simple versioner ser ud til at være direkte nemme at implementere.
+
+Det første eksempel på markov-musik er helt tilbage fra 1950'erne.
+
+-=Genererende Grammatik=-
+Bogen er noget mere teknisk end jeg havde håbet, og jeg er ikke engang sikker på at andre end garvede fagpersoner helt kan følge med.
+Men whining aside så ser det ud til at være baseret på nogen prædefinerede, af mennesker angivne, regler for hvordan en "sætning" bliver genereret som semi-tilfældige objekter som igen har underobjekter indtil programmet til sidst konverterer disse objekter til en række muligheder i en ordbog.
+Eks: Sætning -> Subjekt  +  Verballed -> gyldigt_subjekt  +  gyldigt_verbum + gyldigt_objekt -> John  +  mødte + passende_artikel+adjektiv+navneord ->  John  +  mødte + en+sød+pige
+Der findes så forskellige grader af indviklethed, og det er vist lige så meget en kunst som en videnskab at smide disse regler sammen.
+
+-=Transition Noder=-
+Forskellen mellem disse og markovkæder er ikke åbenlys.
