@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using Midi;
+using System.Reflection;
+using libmusic;
 
 namespace ConsoleApplication
 {
@@ -12,36 +9,54 @@ namespace ConsoleApplication
 	{
 		static void Main(string[] args)
 		{
-			int delay = 4;
-			OutputDevice outputDevice = OutputDevice.InstalledDevices[0];
-			if (outputDevice == null)
+			GeneratorFramework.AddAssembly(Assembly.GetExecutingAssembly());
+			MagicSetup();
+		}
+
+		private static void MagicSetup()
+		{
+			const int defaultBpm = 110;
+			
+			Dictionary<char, Type> types = new Dictionary<char, Type>();
+			char c = 'a';
+
+			foreach (Type knownGenerator in GeneratorFramework.KnownSimpleGenerators)
 			{
-				Console.WriteLine("No output devices, so can't run this example.");
-				return;
-			}
-			outputDevice.Open();
-
-			Console.WriteLine("Playing random MIDI");
-
-			Random r = new Random();
-
-			while (true)
-			{
-				int pitch = r.Next((int)Pitch.C3 - 1, (int)Pitch.B3);
-
-				if (pitch == (int)(Pitch.C3 - 1))
-				{
-					Thread.Sleep(1000 / delay);
-				}
-				else
-				{
-					outputDevice.SendNoteOn(Channel.Channel1, (Pitch)pitch, 80);
-
-					Thread.Sleep(1000 / delay);
-					outputDevice.SendNoteOff(Channel.Channel1, (Pitch)pitch, 80);
-				}
+				types.Add(c, knownGenerator);
+				Console.WriteLine($"{c} - {knownGenerator}");
+				c++;
 			}
 
+			do
+			{
+				ConsoleKeyInfo info = Console.ReadKey(true);
+				c = info.KeyChar;
+			} while (!types.ContainsKey(c));
+
+			Console.WriteLine($"\nSelected {types[c]}");
+
+			Console.WriteLine($"Enter BPM?[default {defaultBpm}]");
+			string bpmString = Console.ReadLine();
+
+			int bpm;
+			if (string.IsNullOrWhiteSpace(bpmString))
+			{
+				bpm = defaultBpm;
+			}
+			else if (!int.TryParse(bpmString, out bpm))
+			{
+				bpm = defaultBpm;
+			}
+
+
+			GeneratorFramework framework = new GeneratorFramework(bpm);
+			framework.Add(types[c]);
+			framework.Start();
+			Console.ReadLine();
+
+
+			Console.WriteLine("Stopping!");
+			framework.Stop();
 		}
 	}
 }
