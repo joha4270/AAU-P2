@@ -1,0 +1,19 @@
+MIDI-FilStruktur:             
+<HeaderChunk>                   // Hver MIDI-fil starter med en header chunk.
+<TrackChunk-Array>              // Efter header-chunken kommer der en række track-chunks.
+MIDI består af to hoveddele en <HeaderChunk>  og en <TrackChunk-Array>.
+HeaderChunken består af 5 dele: MThd, <Header Length>, <Format>, Antal Tracks> og <Division>.
+MThd er obligatorisk at skrive i starten af en MIDI fil for at angive starten af en <HeaderChunk>. der er blevet sat 4 bytes tilside til at skrive dette i filen. 
+<Header Length> her angiver man længden på headeren hvor den maksimale længde 14.
+<Format> bruges til at beskrive filformatet, om det er et singletrack, multitrack eller multisong. hvor singletrack angives som 0, multitrack som 1 og multisong som 2.
+<number of tracks> angiver hvor mange tracks der er i filen.   
+<Division> angiver hvor mange units pr. beats.
+
+TrackChunk består af 3 dele MTrk der markerer at det er begyndelsen af en trackchunk. <Track Length> hvilket angiver størrelsen af trackchunkten i bytes.
+<Track event> er den primære information i trackchunken.
+                                
+TrackEvent:	            
+<v-Time> angiver hvorlang tid der er gået sden sidste event i (vi antager milisekunder)
+<MIDI-event> angiver alle lydevents som for eksempel: start er en node, slutter en node, skift kontrol.
+<Meta-Event> angiver vigtig data som hvornår tracket slutter, hvilket instrument der skal bruges.
+<SysEx-event> er en hardware relateret besked der kun er relevant under bestemte omstændigheder.
