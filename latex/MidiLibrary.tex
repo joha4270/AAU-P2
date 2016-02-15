@@ -1,0 +1,22 @@
+MIDI-Library
+Til vores projekt har vi valgt at benytte os af et bibliotek til at generere musik via. MIDI-formatet. Biblioteket hedder Midi og er skrevet af Tom Lokovic. Biblioteket understøtter direkte afspilning af genereret Midi musik, dvs. at vi ikke behøver at gemme vores data som en seperat fil.
+
+Instrument:
+MIDI-biblioteket har indbygget Instrument og Pitch som hver er en enumeration med 128 elementer.
+
+Chord:
+Biblioteket har også en klasse til opbygning af akkorder hvor en akkord kan konstrueres ud fra en node samt et akkordmønster og en inversionsværdi, men kan også konstrueres ud fra en string.
+
+ChordPattern:
+Man kan opstille et nyt "ChordPattern" vha. et navn, en "abreviation" streng,  "ascent" int array og "letterOffsets" int array af samme længde forrige array.
+Abreviation strengen er en streng der forklarer hvilken akkord afvigelse der er tale om(mol, dur, 7 forstørret eller forminsket).
+Ascent er en række af stigende værdier der beskriver hvilke toner der anvendes i akkord mønsteret.
+LetterOffsets er en række værdier der hver beskriver hvilke bogstaver der hører til de tilsvarende værdier i ascent-arrayet.
+
+OutputDevice:
+Midi-biblioteket har også en klasse for OutputDevice, hvilket bruges til at afspille den musik vi genererer. Objektet indeholder bl.a. en liste over det installerede hardware der kan afspille midi filer. Objektet kræver at både man har valgt en afspiller og åbnet objektet før man kan afspille musik.
+OutputDevice klassen giver også tilgang til en række metoder som: SendNoteOn, SendNoteOff, SendPercussion, SendControlChange, SendPitchBend og SendProgramChange, hvoraf vi mest af alt benytter os af metoderne SendNoteOn, SendNoteOff og SendProgramChange.
+SendNoteOn metoden sender en besked til afspilleren om at starte en tone.
+Metoden har parametrene Channel, Pitch og Velocity, hvor Channel er en enum der beskriver hvilken kanal der arbejdes på. Pitch er den node der skal afspilles og velocity er en integer der beskriver hvor hårdt en tone afspilles.
+SendNoteOff metoden tager samme parametre som SendNoteOn metoden, men i stedet for at starte en tone, sender denne metode en besked om at slukke tonen.
+SendProgramChange metoden sender en besked til afspilleren om at skifte instrumentet på en given kanal. Metoden tager en kanal og et instrument som parametre.
