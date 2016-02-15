@@ -10,7 +10,7 @@ Nicklas - 3
 
 Kennet: 5
 
-Emil - 2
+Emil - 3
 
 Ibrahim  2
 
