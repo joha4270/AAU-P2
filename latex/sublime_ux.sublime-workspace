@@ -51,7 +51,7 @@
 			"file": "setup/variables.tex",
 			"settings":
 			{
-				"buffer_size": 617,
+				"buffer_size": 577,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "Main.tex",
 			"settings":
 			{
-				"buffer_size": 1097,
+				"buffer_size": 1071,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "aau/titlepages.tex",
 			"settings":
 			{
-				"buffer_size": 1285,
+				"buffer_size": 758,
 				"line_ending": "Windows"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "references.bib",
 			"settings":
 			{
-				"buffer_size": 327,
+				"buffer_size": 131,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +107,7 @@
 			"file": "aau/preface.tex",
 			"settings":
 			{
-				"buffer_size": 908,
+				"buffer_size": 238,
 				"line_ending": "Windows"
 			}
 		},
@@ -115,7 +115,7 @@
 			"file": "aau/signatures.tex",
 			"settings":
 			{
-				"buffer_size": 1103,
+				"buffer_size": 1149,
 				"line_ending": "Windows"
 			}
 		},
@@ -184,7 +184,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Christian Skole/Desktop/AAU-P2/latex"
+		"/C/Users/Christian Skole/Documents/AAU-P2/latex"
 	],
 	"file_history":
 	[
@@ -455,15 +455,15 @@
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 617,
+						"buffer_size": 577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								0,
+								0
 							]
 						],
 						"settings":
@@ -483,7 +483,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1097,
+						"buffer_size": 1071,
 						"regions":
 						{
 						},
@@ -511,15 +511,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1285,
+						"buffer_size": 758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								732,
-								732
+								0,
+								0
 							]
 						],
 						"settings":
@@ -599,7 +599,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 327,
+						"buffer_size": 131,
 						"regions":
 						{
 						},
@@ -659,15 +659,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 908,
+						"buffer_size": 238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								0,
+								0
 							]
 						],
 						"settings":
@@ -687,15 +687,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1103,
+						"buffer_size": 1149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								0,
+								0
 							]
 						],
 						"settings":
