@@ -6,13 +6,13 @@ Asger - 1
 
 Christian: 5
 
-Nicklas - 2
+Nicklas - 3
 
-Kennet: 3
+Kennet: 5
 
 Emil - 2
 
 Ibrahim  2
 
-Johannes
+Johannes 2
 
