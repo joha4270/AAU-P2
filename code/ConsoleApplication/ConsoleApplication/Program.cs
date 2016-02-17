@@ -10,7 +10,7 @@ namespace ConsoleApplication
 		static void Main(string[] args)
 		{
 			GeneratorFramework.AddAssembly(Assembly.GetExecutingAssembly());
-			MagicSetup();
+            MagicSetup();
 		}
 
 		private static void MagicSetup()
