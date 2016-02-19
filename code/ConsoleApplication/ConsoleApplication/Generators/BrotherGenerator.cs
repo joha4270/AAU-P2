@@ -90,7 +90,7 @@ namespace ConsoleApplication.Generators
 				float ofset = (8 - remaining)/2f;
 
 				int state = random.Next(Pitches.Length);
-				messages.Add(new NoteOnOff(Pitches[state], 80, beat + ofset, lenght));
+				messages.Add(new NoteOnOff(Pitches[state], 64 + random.Next(-32, 32), beat + ofset, lenght));
 
 				Console.Write($"{$"({ofset}->{ofset + lenght})".PadRight(remaining == 8 ? 8 : 10)} {(Pitches[state]).ToString().Replace("Sharp", "#").PadRight(3)}".PadRight(14));
 
@@ -105,7 +105,7 @@ namespace ConsoleApplication.Generators
                 }
 				else
 				{
-					messages.Add(new NoteOnOff(second[index], 80, beat + ofset, lenght));
+					messages.Add(new NoteOnOff(second[index], 64 + random.Next(-32, 32), beat + ofset, lenght));
 
 					Console.Write($"->{second[index]}".Replace("Sharp", "#").PadRight(extra));
 				}

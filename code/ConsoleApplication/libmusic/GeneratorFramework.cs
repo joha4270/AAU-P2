@@ -40,6 +40,8 @@ namespace libmusic
 		private readonly Clock _clock;
 		private readonly OutputDevice _outputDevice;
 
+		private Channel _channels = Channel.Channel1;
+
 		public float BeatsPerMinute
 		{
 			get { return _clock.BeatsPerMinute; }
@@ -49,7 +51,25 @@ namespace libmusic
 		public GeneratorFramework(float beatsPerMinute)
 		{
 			_clock = new Clock(beatsPerMinute);
-			_outputDevice = OutputDevice.InstalledDevices[0];
+
+			char c = 'a';
+			Dictionary<char, OutputDevice> _outdevices = new Dictionary<char, OutputDevice>();
+
+			Console.WriteLine("Select output device");
+			foreach (OutputDevice device in OutputDevice.InstalledDevices)
+			{
+				Console.WriteLine($"{c} - {device.Name}");
+				_outdevices.Add(c++, device);
+
+			}
+
+			do
+			{
+				c = Console.ReadKey(true).KeyChar;
+			} while (!_outdevices.ContainsKey(c));
+
+			_outputDevice = _outdevices[c];
+			Console.WriteLine("Using {0} as output", _outputDevice.Name);
 			_outputDevice.Open();
 		}
 
@@ -142,5 +162,21 @@ namespace libmusic
 		{
 			internal float Time; //Next time it should be called
 		}
+
+		internal Channel GetWorkingChannel(InfoObject info, Instrument instrument, bool single)
+		{
+			if (_channels == Channel.Channel16) throw new OutOfChannelsException();
+
+			lock (_syncRoot)
+			{
+				_outputDevice.SendProgramChange(_channels, instrument);
+			}
+			
+			return _channels++;
+		}
+	}
+
+	internal class OutOfChannelsException : Exception
+	{
 	}
 }
