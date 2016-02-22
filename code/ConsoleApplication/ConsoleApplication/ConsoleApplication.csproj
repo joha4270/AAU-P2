@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Generators\BrotherGenerator.cs" />
+    <Compile Include="Generators\CellularAutomata.cs" />
     <Compile Include="Generators\DrumBeatGenerator.cs" />
     <Compile Include="Generators\ChordTesting.cs" />
     <Compile Include="Generators\ShittyGeneratorExample.cs" />
