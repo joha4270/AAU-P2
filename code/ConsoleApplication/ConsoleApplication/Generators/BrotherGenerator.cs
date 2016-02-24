@@ -12,28 +12,13 @@ namespace ConsoleApplication.Generators
 
 		private static readonly Dictionary<Pitch, Pitch[]> Second = new Dictionary<Pitch, Pitch[]>()
 		{
-			{
-				Pitch.CSharp4, new[] {Pitch.FSharp4, Pitch.ASharp3, Pitch.GSharp4, Pitch.F4, Pitch.CSharp3}
-			},
-			{
-				Pitch.DSharp4, new[] {Pitch.FSharp4, Pitch.ASharp3, Pitch.GSharp3, Pitch.C3, Pitch.DSharp3}
-			},
-			{
-				Pitch.FSharp4, new[] {Pitch.ASharp3, Pitch.CSharp3, Pitch.DSharp3, Pitch.FSharp3}
-			},
-			{
-				Pitch.GSharp4, new[] {Pitch.CSharp3, Pitch.DSharp3, Pitch.C3, Pitch.F3, Pitch.GSharp3}
-			},
-			{
-				Pitch.ASharp4, new[] {Pitch.FSharp4, Pitch.CSharp4, Pitch.DSharp4, Pitch.F4, Pitch.C4, Pitch.ASharp3}
-			},
-			{
-				Pitch.C4, new[] {Pitch.DSharp4, Pitch.F4, Pitch.GSharp4, Pitch.ASharp3, Pitch.C3}
-			},
-			{
-				Pitch.F4, new[] {Pitch.C3, Pitch.CSharp3, Pitch.GSharp4, Pitch.ASharp4, Pitch.F3}
-			},
-
+			{ Pitch.CSharp4, new[] {Pitch.FSharp4, Pitch.ASharp3, Pitch.GSharp4, Pitch.F4, Pitch.CSharp3} },
+			{ Pitch.DSharp4, new[] {Pitch.FSharp4, Pitch.ASharp3, Pitch.GSharp3, Pitch.C3, Pitch.DSharp3} },
+			{ Pitch.FSharp4, new[] {Pitch.ASharp3, Pitch.CSharp3, Pitch.DSharp3, Pitch.FSharp3} },
+			{ Pitch.GSharp4, new[] {Pitch.CSharp3, Pitch.DSharp3, Pitch.C3, Pitch.F3, Pitch.GSharp3} },
+			{ Pitch.ASharp4, new[] {Pitch.FSharp4, Pitch.CSharp4, Pitch.DSharp4, Pitch.F4, Pitch.C4, Pitch.ASharp3} },
+			{ Pitch.C4, new[] {Pitch.DSharp4, Pitch.F4, Pitch.GSharp4, Pitch.ASharp3, Pitch.C3} },
+			{ Pitch.F4, new[] {Pitch.C3, Pitch.CSharp3, Pitch.GSharp4, Pitch.ASharp4, Pitch.F3} },
 		};
 
 
