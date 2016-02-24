@@ -10,82 +10,75 @@ namespace ConsoleApplication.Generators
 {
     class ChordTesting : libmusic.IMusicGenerator
     {
-        List<SNote> sNotes = new List<SNote>();
-        float _MaxTimeUsed;
+        Melody mel = new Melody();
+        float _MaxTimeUsed = 100;
+
         public ChordTesting()
         {
-            List<Midi.Chord> cList = new List<Midi.Chord>();
-            cList.Add(new Midi.Chord("A"));
-            cList.Add(new Midi.Chord("C"));
-            cList.Add(new Midi.Chord("D"));
-            cList.Add(new Midi.Chord("G"));
-            PlayChords(cList, 4, 0, 20);
+
         }
+
         public float Deadline()//Tid før næste kald i beats
         {
-            return _MaxTimeUsed;
+            return _MaxTimeUsed += 100;//Skal øges
         }
 
         public ICollection<LibNoteMessage> GenerateMusic()//Returner en mængde noder til afspilning
         {
-            List<LibNoteMessage> tempList = new List<LibNoteMessage>();
-            foreach (SNote sN in sNotes)
-            {
-                tempList.Add(new NoteOn(sN.pitch, sN.Velocity, sN.StartTime, sN.channel));
-            }
+            List<LibNoteMessage> tempList = mel.GetList();
             return tempList;
         }
 
         public void Setup(InfoObject infoObject)// Ignore for now
         {
         }
-        /// <summary>
-        /// Plays through a list of chords with a constant time interval.
-        /// </summary>
-        /// <param name="chords">A list of the chords you want to play.</param>
-        /// <param name="octave">The octave you want to play in.</param>
-        /// <param name="startTime">The time you want the first chord to be played.</param>
-        /// <param name="timeInterval">The time interval between each chord.</param>
-        public void PlayChords(List<Chord> chords, int octave, int startTime, int timeInterval)
+        
+    }
+    class Melody
+    {
+        List<Chord> _melodyArray = new List<Chord>();
+        List<LibNoteMessage> _noteArray = new List<LibNoteMessage>();
+        public int Length
         {
-            _MaxTimeUsed = timeInterval;
-            int tempInt = 0;
-            foreach(Chord c in chords)
+            get { return _melodyArray.Count; }
+        }
+        Chord[] CMajorScale = { new Chord("C"), new Chord("D"), new Chord("E"), new Chord("F"), new Chord("G"), new Chord("A"), new Chord("B") };
+        Chord[] AMinorScale = { new Chord("Am"), new Chord("Bm"), new Chord("Cm"), new Chord("Dm"), new Chord("Em"), new Chord("Fm"), new Chord("Gm") };
+        
+        public List<LibNoteMessage> GetList()
+        {
+            return _noteArray;
+        }
+        public Melody()
+        {
+            FillArray();
+            SetVariables(4, 1);
+        }
+        public void SetVariables(int octave, int channel)
+        {
+            int i = 0;
+            foreach(Chord c in _melodyArray)
             {
-                ChordToNotes(c, octave, startTime + tempInt, tempInt += timeInterval);
-            }
-            GenerateMusic();
-        }
-        private void ChordToNotes(Chord chord, int octave, int time, int endTime)
-        {
-            Note[] tempNotes = chord.NoteSequence;
-            foreach(Note n in tempNotes)
-            {
-                sNotes.Add(NoteToSNote(n, octave, time, endTime));
+                foreach (Note n in c.NoteSequence)
+                {
+                    _noteArray.Add(new NoteOn(n.PitchInOctave(octave),80, i, channel));
+                }
+                i++;
             }
         }
-        private SNote NoteToSNote(Note note, int octave, float time, float endTime)
+        private void FillArray()
         {
-            return NoteToSNote(note, octave, 80, time, endTime, 1);
+            GenerateStrophe();
+            GenerateChorus();
+            GenerateStrophe();
         }
-        private SNote NoteToSNote(Note note, int octave, int velocity, float time, float endTime, int channel)
+        private void GenerateStrophe()
         {
-            SNote sNote = new SNote();
-            sNote.pitch = note.PitchInOctave(octave);
-            sNote.Velocity = velocity;
-            sNote.StartTime = time;
-            sNote.EndTime = endTime;
-            sNote.channel = channel;
-            return sNote;
-
+            //How do we generate this?
         }
-        private class SNote
+        private void GenerateChorus()
         {
-            public Pitch pitch;
-            public int Velocity;
-            public float StartTime;
-            public float EndTime;
-            public int channel;
+            
         }
     }
 }

@@ -50,7 +50,10 @@
     <Compile Include="Generators\BrotherGenerator.cs" />
     <Compile Include="Generators\DrumBeatGenerator.cs" />
     <Compile Include="Generators\ChordTesting.cs" />
+    <Compile Include="Generators\GeneticAlgorithmGenerator.cs" />
     <Compile Include="Generators\ShittyGeneratorExample.cs" />
+    <Compile Include="Genetic_Algorithms\GeneticAlgorithm.cs" />
+    <Compile Include="Genetic_Algorithms\GeneticObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

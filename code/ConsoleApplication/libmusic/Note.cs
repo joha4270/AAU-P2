@@ -31,8 +31,6 @@ namespace libmusic
 		}
 	}
 
-	
-
 	public class NoteOn : LibNoteMessage
 	{
 		public NoteOn(Pitch pitch, int velocity, float time, int channel = 0) : base(pitch, velocity, time, MessageType.On, channel)
