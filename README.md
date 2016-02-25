@@ -2,7 +2,7 @@
 
 Challenge-point:
 
-Asger - 3
+Asger - 4
 
 Christian: 9
 
