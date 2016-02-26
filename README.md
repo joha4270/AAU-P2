@@ -4,7 +4,7 @@ Challenge-point:
 
 Asger - 4
 
-Christian: 9
+Christian: 10
 
 Nicklas - 3
 
