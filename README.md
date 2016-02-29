@@ -2,11 +2,11 @@
 
 Challenge-point:
 
-Asger - 4
+Asger - 5
 
 Christian: 10
 
-Nicklas - 3
+Nicklas - 5
 
 Kennet: 14
 
