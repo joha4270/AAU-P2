@@ -8,7 +8,7 @@ Christian: 12
 
 Nicklas - 5
 
-Kennet: 14
+Kennet: 15
 
 Emil - 7,5
 
