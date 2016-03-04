@@ -10,7 +10,7 @@ Nicklas - 5
 
 Kennet: 16
 
-Emil - 7,5
+Emil - 10,5
 
 Ibrahim  2
 
