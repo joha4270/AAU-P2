@@ -4,11 +4,11 @@ Challenge-point:
 
 Asger - 7
 
-Christian: 11
+Christian: 12
 
 Nicklas - 5
 
-Kennet: 14
+Kennet: 15
 
 Emil - 7,5
 
