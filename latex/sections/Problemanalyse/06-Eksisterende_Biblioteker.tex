@@ -1,0 +1,80 @@
+\todo{Meta-tekst her pls}
+
+Efter eksperimenteringerne stod det klart at det C\# bibliotek der var blevet anvendt i forsøgene havde en del mangler,  og ikke ville være effektivt at benytte i et professionelt program. 
+Derfor er der blevet fundet og undersøgt en række C\# biblioteker der kan anvendes til arbejde i MIDI-formatet.
+
+
+
+Tabel over eksisterende C\#- biblioteker med deres fordele og ulemper:
+
+\begin{center}
+	\todo{Move links to somewhere}
+	\resizebox{12cm}{!}{
+		\begin{tabular}{| r || p{4cm} | p{4cm}  | p{4cm}  | p{4cm}  | p{4cm}  | }
+			\hline 
+			Navn 	& MS API 				& C\# MIDI Toolkit		& naudio									& midi\-dot\-net			& MIDI.NET \\ \hline 
+			%Link 	& \url{https://msdn.microsoft.com/en-us/library/dd798495(v=vs.85).aspx} &  \url{http://www.codeproject.com/Articles/6228/C-MIDI-Toolkit} &  \url{https://naudio.codeplex.com/} &  \url{https://code.google.com/archive/p/midi-dot-net/}  \url{https://github.com/jstnryan/midi-dot-net} &  \url{https://midinet.codeplex.com/} \\ \hline
+			Fordele	& God dokumentation.	& Some documentation 	& Filer og enheder som både input og output	& Intuitiv og let at bruge 	& Filer og enheder som både input og output \\ 
+					& Tæt på metallet, ingen overhead 	& Filer og enheder som både input og output & Kan meget & God interface til timing 	& \\ \hline
+			Ulemper	& Tæt på metallet, programmøren skal alt & Interface er ineffektivt og svært at forstå &  \(stor\) & Ingen filer & Ikke eksisterende dokumentation \\ 
+					& P/Invoke for at kommunikere med C\#/.NET & dokumentationen er ikke så godt skrevet &  & Har ikke hele MIDI standarden & Forvirrende og ineffektiv interface \\
+					& & &  & dårlig/ingen dokumentation & Indre detaljer lækker til brugeren \\  \hline
+		\end{tabular}
+	}
+\end{center}
+
+
+\subsection{MS API}
+
+Microsoft MIDI API er et godt dokumenteret API som forklarer alle det funktioner og samtidig kommer med eksempler på hvordan det kunne bruges og forklare alle parameter der bruges.
+
+API’en er tæt på MIDI-formatet hvilket giver brugeren fuld kontrol over hvordan lyden skal genereres men kræver tilsvarende mere arbejde som andre biblioteker klare for brugeren. 
+Den er implementeret i nativ kode så den skal bruge P/Invoke for at kommunikere med C\#.NET.
+
+
+
+\subsection{C\# MIDI Toolkit}
+
+http://www.codeproject.com/Articles/6228/C-MIDI-Toolkit
+
+Tydeligvis meget populært. 
+Lavet af en hobbyist som stadig vedligeholder det under MIT licens(hvad det end er).
+
+Så vidt det ses, så forsøger biblioteket at være være meget fleksibelt og objektorienteret.  
+MIDI-input kommer ind i den ene ende og ud af den anden, hvor det er muligt for brugeren af biblioteket at smide et komponent ind i midten der modificerer MIDI-inputtet. 
+Der ses ikke at der decideret bliver anvendt en MIDI-fil, men det er lavet til at læse og afspille fra hvad som helst.
+
+Hertil findes der heller ikke nogen dokumentation, og artiklens forsøg på at forklare hvad der er op og ned er håbløs. 
+Ud over det ser det professionelt ud og der er i hvert fald nogen der bruger det.
+
+\subsection{NAudio}
+
+https://naudio.codeplex.com/
+
+Naudio er et meget stort bibliotek til at arbejde med al slags lyd herunder afspilning og modificering af diverse lydfilformater som wav, mp3 og MIDI.
+
+MIDI er altså en lille del af dette biblioteks formåen, men den har alle de funktioner som MIDI har brug for som indlæsning af filer,output af lyd og konvertering af MIDI-filer til andre formater. 
+Biblioteket  gør brug af enums med hensyn til når der skal oprettes events kan man skrive navnet på hvilken type event man vil have oprettet i stedet for at skrive et binært tal til at oprette eventen, hvilket er meget brugervenligt.
+
+\subsection{midi-dot-net}
+
+https://code.google.com/archive/p/midi-dot-net/
+
+midi-dot-net er et C\# bibliotek som giver adgang til Microsofts MIDI API i C\# i en objektorienteret abstraktion. 
+Den ligger sig meget tæt op af Microsofts MIDI API hvor de eneste abstraktioner er at relaterede metoder er flyttet til objekter og det er ikke muligt at sende rå bytes til MIDI API’en som er bygget op af noder med pitch og velocity. 
+Derudover er der er der en række klasser som skal gøre det lettere at komme i gang med at producere musik. Der er en timer klasse der kan håndtere at afspille MIDI events på de rigtige tidspunkter og at automatisk at stoppe med at afspille dem igen. Derudover har den en akkord klasse som tillader brugeren at afspille hele akkorder.
+
+\subsection{MIDI.NET}
+
+https://midinet.codeplex.com/ 
+
+MIDI.NET tillader alle .NET udviklere til at få adgang til MIDI uden at udvikleren behøver at gøre brug af P/Invokes.
+
+Biblioteket læner sig meget over til MIDI formatet den abstrahere ikke så meget.
+
+Efter en undersøgelse af MIDI.NET bibloteket er der blevet fundet ud af at MIDI.NET bibloteket ikke har særlig meget dokumentation udenfor selve koden det dokumentationen kommer meget kort omkring MIDI ports og MIDI beskeder. 
+Den dokumentation som er i selve koden giver en kort beskrivelse af de forskellige af metoder og variabler dog er der ingen overordnet forklaring omkring selve bibliotekets design, brug og funktionaliteter.
+
+Udfra hvad man kan se i koden ser det ud til at biblioteket er istand til at tage MIDI filer som input og som output kan den udskrive en MIDI-fil eller afspille via microsofts interface.
+
+Der er blevet taget nogle ikke så gode valg da det kom til implementeringen af classen MidiBufferStream da der programmøren har valgt at bruge unsafe pointer aritmetik da det helt klart ville være at foretrække at det blev løst på en anden måde som ikke er unsafe.  

@@ -1,0 +1,104 @@
+Under musikkens digitale revolution var der behov for et standardiseret signal til kommunikation mellem forskellige elektronsike komponenter, samt behov for at spille på flere instrumenter synkront, og for at spille det samme gentagne gange.
+\cite{Citation Needed}\todo{Citation Needed}.
+Dertil designede man \emph{Musical Instrument Digital Interface}, MIDI-formatet.
+ 
+
+ 
+
+Udover at være et format hvormed elektroniske instrumenter kommunikerer, kan MIDI-meddelelserne bruges som et filformat der kan gemmes, redigeres og afspilles på en computer\cite{Citation Needed}\todo{Citation Needed}.
+
+
+
+\begin{center}
+\begin{tabular}{ | l | l | }
+	\hline
+	\multicolumn{2}{|c|}{Fordele}\\ \hline
+	MIDI 		& Bølgeform\\ \hline \hline
+	Kompakt 	& Detaljeret\\ \hline
+	Simpelt 	& Fleksibelt\\ \hline
+\end{tabular}
+\end{center}
+\paragraph{Kompakt vs.
+Detaljeret}
+
+I modsætning til bølgeformaterne definerer MIDI ikke lyd direkte.
+Det er en 
+
+abstraktion over den rigtige lyd, og understøtter kun nogle få muligheder i forhold til hvad der er muligt for et bølgeformat.
+
+
+Dette har diverse fordele og ulemper, for eksempel understøtter MIDI ikke ting som sang, specielle effekter, mere end 16 instrumenter ad gangen eller brug af obskure instrumenter.
+Til gengæld er abstraktionen meget lettere at arbejde med når man skal skabe musik fra bunden, hvis man ikke ønsker at beskæftige sig direkte med tonegenerering og i stedet ønsker at arbejde med mere sofistikerede instrumenter.
+
+
+\subsection {Eksperimentering med MIDI-formatet}
+
+I starten var idéen at afteste forskellige former for autogenerering ved hjælp af MIDI formatet, hvor der skulle tages udgangspunkt i den musikteori der tidligere var blevet belyst.
+Projektets problemfelt havde i starten retning mod autogenereret computermusik, og her blev de mulige metoder der kunne anvendes undersøgt.
+    
+
+Ud fra dette blev der udarbejdet nogle forsøgsprogrammer i C\# med hjælp fra et bibliotek kaldet midi-dot-net.
+
+I alt blev der dannet fire programmer ud fra eksperimenteringen med MIDI og autogenerering af musik.
+
+
+
+
+
+\subsubsection{Musik generering ved tilfældighed}
+
+De første overvejelser med musik-programmering, var at teste hvorvidt der kunne programeres et musikstykke i C\#.
+Udfordringen var derfor først, at teste midi-dot-net’s muligheder for at få lyd igennem lydkortet og ud til højtalerne.
+Derefter var målet at generere et musikstykke med toner valgt helt tilfældigt..
+Det der skulle angives på forhånd, var de toner computeren skulle generere musikken ud fra, da der var sat en default-værdi for tempoet i musikkemn.
+ 
+
+De tilfældigt valgte toner lød lige så dårligt i sekvens som man kunne forvente, men demonstrerede fint mulighederne for at generere musik med midi-dot-net.
+Derudover virkede den fuldstændigt tilfældige musik som en kontrolgruppe som andre genereringsteknikker kunne sammenlignes med.
+Nu kunne programmet testes, forsøgene bevægede sig over mod at implementere akkorder og rytmer i musikstykket.
+Det blev klart, at dette var dårligt implementeret i midi-dot-net.
+\cite{CitationNeeded}\todo{Citation Needed}
+
+
+
+\subsubsection{Semi-tilfældig musik med Kvintcirklen}
+
+Efter det første program var færdiggjort og der kunne skabes tilfældige toner, gik næste forsøg i gang.
+
+
+Kvintcirklen placerer tonerne fra tolvtoneskalaen i en cirkel og angiver for hver tone, hvilke andre toner der lyder godt når de spilles efter denne.
+Programmet fungerede ved at hver tone fra kvintcirklen blev stillet op i et array, og startede ved en tilfældig tone og derefter gik videre til en tilfældig tone blandt de mulige ifølge kvintcirklen.
+Programmet skabte ikke nogen stor musisk kunst , men det dannede musik der lød bedre en fuldstændig tilfældige toner.
+\cite{citation+needed}
+
+
+
+\subsubsection{Musik generering ved Cellular Automata}
+
+Cellular automata er en type simulationer hvor “celler”(oftest repræsenteret med firkanter) ændrer stadie baseret på cellerne omkring dem.
+Den simpleste form, elementær cellular automaton, består af en endimensionel stribe celler der alle kan have et af to forskellige stadier, og hvis fremtidige stadie bestemmes ud fra cellen selv og dens to naboceller.
+Denne meget simple præmis giver 256 mulige regelsæt for, hvornår celler opstår eller forsvinder.\cite{wolframCA}
+
+Når dette er brugt til at lave musik ud fra, ser man “cellerne” ude i prompten som kører inde i programmet, imens det spiller toner alt efter hvordan cellerne begår sig.
+Dette betyder, at der bliver lavet musik ud fra en tilfældig, men også forudsigelig metode, hvorpå det faktisk kan komme til at lyde okay, alt efter hvordan tonerne er.
+\cite{CitationNeeded}\todo{Citation Needed}
+
+
+
+\subsubsection{Musik generering via.
+genetiske algoritmer}
+
+Det sidste af de programmer der blev lavet bruger en genetisk algoritme, denne algoritme er en rekursions algoritme, som kører efter noget lign.
+evolutionsteorien, dette betyder at den skal bruge nogle krav og nuværende objekter.
+Algoritmen tager en række af objekter som parametre.
+Samt et objekt med de krav der stilles til objekterne.
+Hvert objekt består af en række værdier der hver repræsenterer en tone.
+
+
+Når algoritmen kører vil den da prøve at kombinere værdier fra objekterne, så den kan leve op til de krav som er stillet.
+Hvis en af kombinationerne mellem objekterne stemmer overens med kravene, afsluttes algoritmen, ellers vil algoritmen først blive kaldt i slutningen af kombinationerne, hvor den så bare tager resultatet af kombinationerne som de nye objekter.
+
+Algoritmen blev kørt det antal gange den fik som parametre hvilket som standard var 100 iterationer, derefter blev alle de overlevende objekter omskrevet til en liste af toner som kunne afspilles inden næste kald af algoritmen.
+Ud fra dette forsøg kunne der konkluderes at man ikke kunne generere ny musik på denne måde, hvis man derimod anvendte teorien anderledes kunne man generere musik ud fra en lang række parametre.
+Disse parametre kunne da bestemmes på compile-time af brugeren, så musikken konstant ændrede sig til hvad brugeren ville.
+Dette kunne være et interessant emne at arbejde med.\cite{CitationNeeded}\todo{Citation Needed}
