@@ -1,6 +1,6 @@
 %  A simple AAU report template.
-%  2015-05-08 v. 1.2.0
-%  Copyright 2010-2015 by Jesper Kjær Nielsen <jkn@es.aau.dk>
+%  2013-03-06 v. 1.0.0
+%  Copyright 2010-2013 by Jesper Kjær Nielsen <jkn@es.aau.dk>
 %
 %  This is free software: you can redistribute it and/or modify
 %  it under the terms of the GNU General Public License as published by
@@ -38,9 +38,9 @@
     \begin{tabular}{@{}ll@{}}
       \parbox{\titlepageleftcolumnwidth}{
         \iflanguage{danish}{%
-          \includegraphics[width=\titlepageleftcolumnwidth]{figures/aau_logo_da}
+          \includegraphics[width=\titlepageleftcolumnwidth]{aau/aau_logo_da}
         }{%
-          \includegraphics[width=\titlepageleftcolumnwidth]{figures/aau_logo_en}
+          \includegraphics[width=\titlepageleftcolumnwidth]{aau/aau_logo_en}
         }
       } &
       \parbox{\titlepagerightcolumnwidth}{\raggedleft\sf\small
@@ -100,7 +100,7 @@
 \theoremheaderfont{\normalfont\bfseries}
 \theorembodyfont{\normalfont}
 \theoremstyle{break}
-\def\theoremframecommand{{\color{gray!50}\vrule width 5pt \hspace{5pt}}}
+\def\theoremframecommand{{\color{aaublue!50}\vrule width 5pt \hspace{5pt}}}
 \newshadedtheorem{exa}{Example}[chapter]
 \newenvironment{example}[1]{%
 		\begin{exa}[#1]

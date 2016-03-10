@@ -1,0 +1,64 @@
+%  A simple AAU report template.
+%  2015-05-08 v. 1.2.0
+%  Copyright 2010-2015 by Jesper Kjær Nielsen <jkn@es.aau.dk>
+%
+%  This is free software: you can redistribute it and/or modify
+%  it under the terms of the GNU General Public License as published by
+%  the Free Software Foundation, either version 3 of the License, or
+%  (at your option) any later version.
+%
+%  This is distributed in the hope that it will be useful,
+%  but WITHOUT ANY WARRANTY; without even the implied warranty of
+%  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%  GNU General Public License for more details.
+%
+%  You can find the GNU General Public License at <http://www.gnu.org/licenses/>.
+%
+\input{setup/preamble.tex}% package inclusion and set up of the document
+\input{setup/hyphenations.tex}% 
+\input{setup/macros.tex}% my new macros
+
+\begin{document}
+%frontmatter
+\pagestyle{empty} %disable headers and footers
+\pagenumbering{roman} %use roman page numbering in the frontmatter
+\input{sections/frontpage.tex}
+\input{sections/colophon.tex}
+%\input{sections/titlepages.tex} %TODO Ret tittelsider når den endelige tittel lægger fast.
+\cleardoublepage
+\pdfbookmark[0]{Contents}{label:contents}
+\pagestyle{fancy} %enable headers and footers again
+\tableofcontents
+\listoftodos
+%\input{sections/preface.tex} %TODO Få gruppenavnene ind når vi engang gider.
+\cleardoublepage
+%mainmatter
+\pagenumbering{arabic} %use arabic page numbering in the mainmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Our Stuff                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Indledning}
+\input{sections/Problemanalyse/01-Indledning}
+\section{Computermusik}
+\input{sections/Problemanalyse/02-Computermusik}
+\section{Musik Teori}
+\input{sections/Problemanalyse/03-Musikteori}
+\section{Redskaber til Projektet C\#}
+\input{sections/Problemanalyse/04-Grundlaeggende_Redskaber}
+\section{Om MIDI formatet}
+\input{sections/Problemanalyse/05-Om_MIDI}
+\section{Eksisterende C\#-biblioteker der følger MIDI-standarden} \todo{renskriv}
+\input{sections/Problemanalyse/06-Eksisterende_Biblioteker}
+\section{Opsummering}
+\input{sections/Problemanalyse/07-Opsummering}
+\section{Ønskværdige egenskaber til et bibliotek}
+\section{overvejelser over features}
+\section{Problemformulering}
+\section{Løsningsforslag}
+
+\printbibliography[heading=bibintoc]
+\label{bib:mybiblio}
+\appendix
+%Appendix goes here.
+
+\end{document}
