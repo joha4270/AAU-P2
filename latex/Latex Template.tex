@@ -4,4 +4,121 @@
 \section{Forord}
 
 \section{Introduktion}
+I verden findes der mange muligheder for at udleve sine musikalske drømme, i både stor og lille grad. Det gælder lige fra erfarne musikere der har lavet musik det meste af deres liv, til børn eller andre interesserede der lige er kommet ind i branchen. Derudover lytter næsten alle mennesker til musik i højere eller mindre grad. Af netop denne grund er musikområdet et utroligt velbeskrevet, men meget kulturbetonet og mangefacetteret område. 
+Musik har mange former og kan tage mange retninger. Det kunne være at den enkelte person kunne lide Jazz, rock eller dansk pop. Dertil er det også muligt at individet ikke interesserer sig for musikteori. Herved kan det være at et lille program, som Mario Paint Composer kan tilfredsstille individets musikalske behov. På samme måde findes der mange kreative måder man kan programmere musik, som denne rapport kommer til at omhandle. Dette kunne blandt andet være den basale interaktion med lydkortet der fokuserer på, at lave et program der kan gøre det nemmere for andre programmører. Dette vil gøre det muligt for dem at kreere geniale løsninger til de mange musikere der er i verden. Der findes MIDI-biblioteker, der har de løsninger som programmørerne behøver, for at kunne kreere nye programmer. Disse kan hjælpe brugere der ikke har styr på software programmering, til at lave deres egen musik. Af denne tankegang udspringer det initierende problem:
+
+\textbf{“Er der områder ved de nuværende muligheder for computergenereret musik der kan forbedres, og er der gamle teknikker der kan bruges i nye sammenhænge?”}
+
+
+\section {Computermusik}
+Computergenereret musik findes i store mængder overalt på internettet, og som tidligere nævnt findes der derudover mange hjælpemidler som musikinteresserede kan bruge til at komponere deres egen musik. Blandt disse er  Leksikon-sonate, Pymprovisator og  Mario Paint Composer, der gør brug af forud-indspillede lyde. Blandt de mere professionelle værktøjer kan  Magix Music Maker nævnes. Dette professionelle stykke software tillader in- og output af MIDI filer, hvilket åbner for interaktionen mellem computer og musikinstrumenter. \todocite{}
+Til de personer der hellere vil eksperimentere en smule med algoritmer og tilfældighed, kan man bruge et programmeringssprog. Der findes der flere forskellige biblioteker der kan hjælpe programmøren med at snakke sammen med det integrerede lydkort. 
+Alternativt kan man lave sit eget format, understøttet af et  program der oversætter formatet til noget computerens lydkort kan forstå. Der er dog visse fordele ved at benytte sig af et standardformat, da et eksisterende filformat kan benyttes i andre stykker software. Det sikrer også, at filerne stadig kan bruges efter dit eget program ikke længere understøttes.
+\section {Musikteori}
+For overhovedet at kunne behandle musik i rapporten, selv om og måske især hvis det er komposition eller redskaber til komposition, er det nødvendigt at beskrive nogle basale musikbegreber. Læren om musik kan danne grundlag for adskillige livslange studier, og nærmest hver eneste kultur og underkultur har sine egne begreber og teknikker til at beskrive musikken. 
+Afsnittets primære fokus er derfor blot en beskrivelse af nogle grundbegreber typisk for det meste musik og navnlig den vestlige. 
+Centralt i alt musik er begrebet  \textit{toner}, lyde der primært består af én mere eller mindre konstant frekvens, hvoraf visse frekvenser opfattes af mennesker som smukkere end andre.
+Jo højere frekvensen er, jo lysere opfattes tonen, og jo lavere frekvens jo dybere opfattes denne. \cite{msparkMusic}
+\subsubsection{Tolvtoneskalaen}
+I moderne musik anvendes tolvtoneskalaen som den standard man bruger til at notere noder, og til at beskrive alle andre skalaer. 
+Skalaen er defineret ud fra en grundtone med frekvens 440hz som navngives A (Frekvensen for A er fundet ved hjælp af eksperimentering, og giver den smukkeste tolvtoneskala). \cite{msparkMusic}
+Tonen med den dobbelte frekvens, 880hz, lyder som en lysere variant af samme tone. Rummet mellem de to toner deles op i 11 nye toner med lige stor indbyrdes afstand. Dette giver en skala af 12 toner, hvor hver 13. tone altid er en lysere variant af den tone man startede fra.
+Det samme kan gøres mellem 220hz og 440hz, eller mellem 880hz og 1.760hz osv. \cite{msparkMusic}
+Disse toner er traditionelt navngivet \textbf{A, A#, H, C, C#, D, D#, E, F, F#, G} og \textbf{G#} 
+Læg mærke til at afstanden mellem tonerne er den samme på trods af navngivningen. Denne afstand måles i intervaller, og der siges at være et halvt interval mellem hver tone i tolvtoneskalaen. Hvis man for eksempel arbejder med A# som grundtone siges E at være tone nummer tre, og F tone tre en halv. \cite{msparkMusic}
+\subsubsection{Andre skalaer}
+Tolvtoneskalaen har den egenskab, at næsten alle andre toneskalaer kan defineres som en samling af toner fra tolvtoneskalaen. \cite{msparkMusic}
+Det gøres traditionelt ved at opskrive en række af intervaller, der angiver afstanden fra den forrige til den næste tone i skalaen.
+For eksempel kan man udtrykke den rene durskala som “1 1 ½ 1 1 1 ½” (med A som den første tone) svarende til noderne \textbf{A, H, C, D, E, F} og \textbf{G}.
+Alle toner tildeles en ny interval-afstand indbyrdes i skalaen, hvorfor det at arbejde inden for en given skala har stor indflydelse på musikkens stil og udtryk. \cite{msparkMusic}
+\subsection{Akkorder}
+Akkorder er grupper af 3 eller flere toner der spilles samlet, men ikke nødvendigvis samtidig. Dette åbner for mangfoldige og komplekse variationer af simple melodier.
+Akkorder defineres med hensyn til intervaller i forhold til grundtonen, som kan være en hvilken som helst tone i skalaen. \cite{msparkMusic}
+Ser man eksempelvis på akkorden 1-3-5(durtreklangen) bliver den i den rene durskala C-E-G hvis C er grundtonen, og H-D-F hvis H er grundtonen.
+
+\section {Valg af Grundlæggende Redskaber}
+For bedst at opfylde projektets læringsmål arbejdes i det objektorienterede programmeringssprog C#.
+Sproget har et indbygget bibliotek, \quote{System.Media}, til at håndtere bølgebaserede lydfiler. Biblioteket kan afspille musik fra en fil, samt skrive lydbølger til en wavefile. Denne repræsentation af lyd er fortræffelig til at lagre i forvejen optagede lydklip, men det at generere musik fra grunden bliver enten ekstremt teknisk eller meget begrænset.\todocite
+Skulle musik genereres med kode, er det mere oplagt blot at arbejde i toner og instrumenter, hvilket understøttes af MIDI-standarden.  Fordelen ved MIDI-formatet er at det er meget simpelt og filerne fylder generelt mindre end bølge-baserede lydformater. MIDI formatet er dog ikke lige så fleksibelt som de bølgebaserede formater, bl.a. da det ikke er baseret på bølger og at man derfor ikke kan lave lyrik i MIDI filer. Til denne rapports formål er det dog ikke et problem, da lyrik ligger uden for rapportens område, men blot kan lægges over i en evt. senere gennemarbejdning af musikken, skulle nogen ønske det.
+TODO: “Vi vælger at bruge MIDI”
+
+\section {Om MIDI formatet}
+Under musikkens digitale revolution var der behov for et standardiseret signal til kommunikation mellem forskellige elektronsike komponenter, samt behov for at spille på flere instrumenter synkront, og for at spille det samme gentagne gange. \cite{citation+needed}. Dertil designede man \emph{Musical Instrument Digital Interface}, MIDI-formatet.  
+ 
+Udover at være et format hvormed elektroniske instrumenter kommunikerer, kan MIDI-meddelelserne bruges som et filformat der kan gemmes, redigeres og afspilles på en computer\cite{citation+needed}.
+
+I modsætning til bølgeformaterne definerer MIDI ikke lyd direkte. Det er en abstraktion over den rigtige lyd, og understøtter kun nogle få muligheder i forhold til hvad der er muligt for et bølgeformat. 
+Dette har diverse fordele og ulemper, for eksempel understøtter MIDI ikke ting som sang, specielle effekter, mere end 16 instrumenter ad gangen eller brug af obskure instrumenter. Til gengæld er abstraktionen meget lettere at arbejde med når man skal skabe musik fra bunden, hvis man ikke ønsker at beskæftige sig direkte med tonegenerering og i stedet ønsker at arbejde med mere sofistikerede instrumenter. 
+\begin{center}
+\begin{tabular}{ | l | l | }
+	\hline
+	\multicolumn{2}{|c|}{Fordele}\\ \hline
+	MIDI 		& Bølgeform\\ \hline \hline
+	Kompakt 	& Detaljeret\\ \hline
+	Simpelt 	& Fleksibelt\\ \hline
+\end{tabular}
+\end{center}
+\paragraph{Kompakt vs. Detaljeret}
+
+
+
+\subsection {Eksperimentering med MIDI-formatet}
+I starten var idéen at afteste forskellige former for autogenerering ved hjælp af MIDI formatet, hvor der skulle tages udgangspunkt i den musikteori der tidligere var blevet belyst. Projektets problemfelt havde i starten retning mod autogenereret computermusik, og her blev de mulige metoder der kunne anvendes undersøgt.     
+Ud fra dette blev der udarbejdet nogle forsøgsprogrammer i C# med hjælp fra et bibliotek kaldet midi-dot-net.
+I alt blev der dannet fire programmer ud fra eksperimenteringen med MIDI og autogenerering af musik.
+
+
+Musik generering ved tilfældighed:
+De første overvejelser med musik-programmering, var at teste hvorvidt der kunne programeres et musikstykke i C#. Udfordringen var derfor først, at teste midi-dot-nets muligheder for at få lyd igennem lydkortet og ud til højtalerne. Derefter var målet at generere et musikstykke med toner valgt helt tilfældigt.. Det der skulle angives på forhånd, var de toner computeren skulle generere musikken ud fra, da der var sat en default-værdi for tempoet i musikken.  
+De tilfældigt valgte toner lød lige så dårligt i sekvens som man kunne forvente, men demonstrerede fint mulighederne for at generere musik med midi-dot-net. Derudover virkede den fuldstændigt tilfældige musik som en kontrolgruppe som andre genereringsteknikker kunne sammenlignes med. Nu kunne programmet testes, forsøgene bevægede sig over mod at implementere akkorder og rytmer i musikstykket. Det blev klart, at dette var dårligt implementeret i midi-dot-net. \cite{citation+needed}
+
+Semi-tilfældig musik med Kvintcirklen:
+Efter det første program var færdiggjort og der kunne skabes tilfældige toner, gik næste forsøg i gang. 
+Kvintcirklen placerer tonerne fra tolvtoneskalaen i en cirkel og angiver for hver tone, hvilke andre toner der lyder godt når de spilles efter denne. Programmet fungerede ved at hver tone fra kvintcirklen blev stillet op i et array, og startede ved en tilfældig tone og derefter gik videre til en tilfældig tone blandt de mulige ifølge kvintcirklen. Programmet skabte ikke nogen stor musisk kunst , men det dannede musik der lød bedre en fuldstændig tilfældige toner. \cite{citation+needed}
+
+Musik generering ved Cellular Automata.
+Cellular automata er en type simulationer hvor “celler”(oftest repræsenteret med firkanter) ændrer stadie baseret på cellerne omkring dem. Den simpleste form, elementær cellular automaton, består af en endimensionel stribe celler der alle kan have et af to forskellige stadier, og hvis fremtidige stadie bestemmes ud fra cellen selv og dens to naboceller. Denne meget simple præmis giver 256 mulige regelsæt for, hvornår celler opstår eller forsvinder.\cite{wolframCA}
+Når dette er brugt til at lave musik ud fra, ser man “cellerne” ude i prompten som kører inde i programmet, imens det spiller toner alt efter hvordan cellerne begår sig. Dette betyder, at der bliver lavet musik ud fra en tilfældig, men også forudsigelig metode, hvorpå det faktisk kan komme til at lyde okay, alt efter hvordan tonerne er. \cite{citation+needed}
+
+Musik generering via. genetiske algoritmer.
+Det sidste af de programmer der blev lavet bruger en genetisk algoritme, denne algoritme er en rekursions algoritme, som kører efter noget lign. evolutionsteorien, dette betyder at den skal bruge nogle krav og nuværende objekter. Algoritmen tager en række af objekter som parametre. Samt et objekt med de krav der stilles til objekterne. Hvert objekt består af en række værdier der hver repræsenterer en tone. 
+Når algoritmen kører vil den da prøve at kombinere værdier fra objekterne, så den kan leve op til de krav som er stillet. Hvis en af kombinationerne mellem objekterne stemmer overens med kravene, afsluttes algoritmen, ellers vil algoritmen først blive kaldt i slutningen af kombinationerne, hvor den så bare tager resultatet af kombinationerne som de nye objekter.
+Algoritmen blev kørt det antal gange den fik som parametre hvilket som standard var 100 iterationer, derefter blev alle de overlevende objekter omskrevet til en liste af toner som kunne afspilles inden næste kald af algoritmen. Ud fra dette forsøg kunne der konkluderes at man ikke kunne generere ny musik på denne måde, hvis man derimod anvendte teorien anderledes kunne man generere musik ud fra en lang række parametre. Disse parametre kunne da bestemmes på compile-time af brugeren, så musikken konstant ændrede sig til hvad brugeren ville. Dette kunne være et interessant emne at arbejde med.\cite{citation+needed}
+
+\section {Eksisterende C#-biblioteker der følger MIDI-standarden} \todo{renskriv}
+%Meta-tekst her pls
+\subsection{MS API}
+Microsoft MIDI API er et godt dokumenteret API som forklarer alle det funktioner og samtidig kommer med eksempler på hvordan det kunne bruges og forklare alle parameter der bruges.
+API’en er tæt på MIDI-formatet hvilket giver brugeren fuld kontrol over hvordan lyden skal genereres men kræver tilsvarende mere arbejde som andre biblioteker klare for brugeren. Den er implementeret i nativ kode så den skal bruge P/Invoke for at kommunikere med C#.NET.
+
+\subsection{C# MIDI Toolkit}
+http://www.codeproject.com/Articles/6228/C-MIDI-Toolkit
+Tydeligvis meget populært. Lavet af en hobbyist som stadig vedligeholder det under MIT licens(hvad det end er).
+Så vidt det ses, så forsøger biblioteket at være være meget fleksibelt og objektorienteret.  MIDI-input kommer ind i den ene ende og ud af den anden, hvor det er muligt for brugeren af biblioteket at smide et komponent ind i midten der modificerer MIDI-inputtet. Der ses ikke at der decideret bliver anvendt en MIDI-fil, men det er lavet til at læse og afspille fra hvad som helst.
+Hertil findes der heller ikke nogen dokumentation, og artiklens forsøg på at forklare hvad der er op og ned er håbløs. Ud over det ser det professionelt ud og der er i hvert fald nogen der bruger det.
+\subsection{NAudio}
+https://naudio.codeplex.com/
+NAudio er et enormt lydbibliotek til C# der blandt andet har MIDI-support. Supporten er bygget op om en MidiEvent-klasse plus underklasser. Det vides ikke om det er hele MIDI-specifikationen der er blevet understøttet, men af hvad de forskellige eksempler viser, er det meget muligt.
+MidiEvent-klasserne kan enten læses fra en binær fil eller oprettes med en constructor. Alle klasserne kan få deres information skreven til en åben MIDI-fil.
+Der ses ikke hvordan de forskellige MIDI-events bliver afspillet.
+\subsection{midi-dot-net}
+https://code.google.com/archive/p/midi-dot-net/
+I biblioteket midi-dot-net findes der ingen support for hverken in- eller out-put filer. Der er delvis support for MIDI-standarden, men der er fokuseeret mest på det basale
+midi-dot-net biblioteket har dertil også sine egne systemer til akkorder og skalaer, men de er ikke blevet undersøgt nærmere og der kan derfor ikke gives yderligere kommentarer om dette. Har også en node-struktur der kan oversætte tekst til de tilsvarende toner. 
+Derudover har den en clock-klasse, som bliver brugt til at planlægge fremtidige toner i stedet for at lade programmet køre afsted med spille-hastighed. Samme klasse kan også planlægge funktionskald tilbage i programmet. Meget smart, egentlig, men stiller nok skarpe  krav til programmets opbygning.
+\subsection{MIDI.NET}
+https://midinet.codeplex.com/ 
+MIDI.NET skal ikke forveksles meddet andet bibliotek af cirka samme navn. Dokumentationen er næsten ikke eksisterende.
+MIDI.NET indeholder en meget simpel support for MIDI-meddelelser som klasser. Derudover kan det tage input(ved ikke om dette også indebærer filer) og sende meddelelserne til et output. Biblioteket er tænkt til at skulle bruges på samme måde som MIDI Toolkit, hvor MIDI-meddelelserne modificeres ved at flyde fra interface-implementation til interface-implementation indtil de når et output. 
+
+\section{Opsummering}
+
+\section{Ønskværdige egenskaber til et bibliotek}
+
+\section{overvejelser over features}
+
+\section{Problemformulering}
+
+\section{Løsningsforslag}
+
 
