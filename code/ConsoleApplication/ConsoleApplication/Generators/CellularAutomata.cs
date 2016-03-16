@@ -10,7 +10,7 @@ namespace ConsoleApplication.Generators
 {
     class ElementaryCellularAutomata : IMusicGenerator
     {
-        public int rule = 45;
+        public int rule = 1;
         
         int velocity = 64;
         float beat = 0;
@@ -107,7 +107,7 @@ namespace ConsoleApplication.Generators
             Console.ForegroundColor = cellColor;
             for (int i = 0; i < toPrint.Length; i++)
             {
-                Console.Write(toPrint[i] ? "▒" : " ");
+                Console.Write(toPrint[i] ? fill : blank);
             }
 
             Console.ForegroundColor = previousColor;
@@ -130,9 +130,11 @@ namespace ConsoleApplication.Generators
             Array.Copy(_currentState, firstBit.Length, middleBit, 0, middleBit.Length);
             Array.Copy(_currentState, firstBit.Length + middleBit.Length, lastBit, 0, lastBit.Length);
 
-            _print(firstBit, '▒', ' ', ConsoleColor.Green);
-            _print(middleBit, '▓', ' ', ConsoleColor.Blue);
-            _print(lastBit, '▒', ' ', ConsoleColor.Green);
+            Console.BackgroundColor = ConsoleColor.White;
+            _print(firstBit, '█', ' ', ConsoleColor.Black);
+            _print(middleBit, '█', ' ', ConsoleColor.Blue);
+            _print(lastBit, '█', ' ', ConsoleColor.Black);
+            Console.BackgroundColor = ConsoleColor.Black;
 
             for (int i = 0; i < middleBit.Length; i++)
             {
