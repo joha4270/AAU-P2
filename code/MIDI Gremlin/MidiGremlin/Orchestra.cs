@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace MidiGremlin
 {
-    public class monster
+    class Orchestra
     {
-        public void DoEverything ()
+        //TODO:List of instruments
+        public Orchestra (IMidiOut output)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Instrument AddInstrument ()
         {
             throw new NotImplementedException();
         }
