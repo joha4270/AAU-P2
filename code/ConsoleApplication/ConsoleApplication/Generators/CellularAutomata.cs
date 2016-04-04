@@ -10,7 +10,7 @@ namespace ConsoleApplication.Generators
 {
     class ElementaryCellularAutomata : IMusicGenerator
     {
-        public int rule = 1;
+        public int rule = 45;
         
         int velocity = 64;
         float beat = 0;
