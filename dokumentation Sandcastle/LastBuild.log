@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\Users\Christian Skole\Desktop\MIDIGremlinDokumentation\sandcastle.shfbproj" started="14-04-2016 13:03:20">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\Users\Christian Skole\Desktop\MIDIGremlinDokumentation\sandcastle.shfbproj" started="14-04-2016 13:31:38">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -23,22 +23,22 @@ Source: C:\Users\Christian Skole\Documents\AAU-P2\code\MIDI Gremlin\MidiGremlin\
 Source: C:\Users\Christian Skole\Documents\AAU-P2\code\MIDI Gremlin\MidiGremlin\bin\Debug\MidiGremlin.xml
 
 Copying XML comments files
-    C:\Users\Christian Skole\Documents\AAU-P2\code\MIDI Gremlin\MidiGremlin\bin\Debug\MidiGremlin.XML -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\MidiGremlin.XML
+    C:\Users\Christian Skole\Documents\AAU-P2\code\MIDI Gremlin\MidiGremlin\bin\Debug\MidiGremlin.XML -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\MidiGremlin.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, Engelsk (USA))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0600
+</plugIn>    Last step completed in 00:00:00,0156
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0100
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build startede 14-04-2016 13:03:30.
-Projekt &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\GenerateRefInfo.proj&quot; p† node 1 (standarddestinationer).
+Build startede 14-04-2016 13:31:39.
+Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\GenerateRefInfo.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
   Mappen &quot;obj\MCD\Debug\&quot; oprettes.
@@ -53,18 +53,18 @@ GenerateRefInfo:
   Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Bygningen af projektet &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\GenerateRefInfo.proj&quot; er f‘rdig (standarddestinationer).
+Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\GenerateRefInfo.proj&quot; er f‘rdig (standarddestinationer).
 
 Build lykkedes.
 
-Forl›bet tid 00:00:14.59
-    Last step completed in 00:00:18,2101
+Forl›bet tid 00:00:01.56
+    Last step completed in 00:00:02,0144
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build startede 14-04-2016 13:03:46.
-Projekt &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\TransformManifest.proj&quot; p† node 1 (standarddestinationer).
+Build startede 14-04-2016 13:31:41.
+Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\TransformManifest.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
   XslTransform (v2016.4.9.0)
@@ -80,16 +80,16 @@ TransformManifest:
   Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Bygningen af projektet &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\TransformManifest.proj&quot; er f‘rdig (standarddestinationer).
+Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\TransformManifest.proj&quot; er f‘rdig (standarddestinationer).
 
 Build lykkedes.
 
-Forl›bet tid 00:00:21.80
-    Last step completed in 00:00:22,2021
+Forl›bet tid 00:00:01.07
+    Last step completed in 00:00:01,4664
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0200
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -103,39 +103,39 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build startede 14-04-2016 13:04:08.
-Projekt &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\GenerateIntermediateTOC.proj&quot; p† node 1 (standarddestinationer).
+Build startede 14-04-2016 13:31:43.
+Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\GenerateIntermediateTOC.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
   XslTransform (v2016.4.9.0)
   Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Bygningen af projektet &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\GenerateIntermediateTOC.proj&quot; er f‘rdig (standarddestinationer).
+Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\GenerateIntermediateTOC.proj&quot; er f‘rdig (standarddestinationer).
 
 Build lykkedes.
 
-Forl›bet tid 00:00:00.72
+Forl›bet tid 00:00:00.82
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01,1650
+    Last step completed in 00:00:01,3582
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,7930
+    Last step completed in 00:00:00,1560
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\Users\Christian Skole\Desktop\Ny mappe\Working\sandcastle.config
+C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00,0010
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
-Build startede 14-04-2016 13:04:10.
-Projekt &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj&quot; p† node 1 (standarddestinationer).
+Build startede 14-04-2016 13:31:44.
+Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildTopics:
   BuildAssembler (v2016.4.9.0)
@@ -143,132 +143,132 @@ BuildTopics:
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [T:MidiGremlin.Chord] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.#ctor(System.Int32[])] Missing &lt;param name=&quot;toneSteps&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Chord.Major] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.WithBaseTone(MidiGremlin.Tone)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.WithBaseTone(MidiGremlin.Tone)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.WithBaseTone(MidiGremlin.Tone)] Missing &lt;param name=&quot;tone&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ChordInstance.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ChordInstance.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Instrument.Octave] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;music&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;tone&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Instrument.Scale] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.MusicObject.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.MusicObject.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.#ctor(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;tone&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.#ctor(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.#ctor(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.Duration] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.OctaveOffset] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;scale&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;offset&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;offset&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.Tone] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.Velocity] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Orchestra.#ctor(MidiGremlin.IMidiOut)] Missing &lt;param name=&quot;output&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Orchestra.AddInstrument] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Orchestra.AddInstrument] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.#ctor(MidiGremlin.MusicObject[])] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.#ctor(System.Collections.Generic.IEnumerable{MidiGremlin.MusicObject})] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Clear] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;array&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;arrayIndex&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.ParralelMusicCollection.Count] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetEnumerator] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetEnumerator] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.ParralelMusicCollection.IsReadOnly] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.ParralelMusicCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Pause.#ctor(System.Int32)] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Pause.Duration] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Pause.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Pause.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Scale.#ctor(MidiGremlin.Tone[])] Missing &lt;param name=&quot;tones&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Scale.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.#ctor(MidiGremlin.MusicObject[])] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.#ctor(System.Collections.Generic.IEnumerable{MidiGremlin.MusicObject})] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Clear] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;array&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;arrayIndex&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.SequentialMusicCollection.Count] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetEnumerator] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetEnumerator] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.SequentialMusicCollection.IsReadOnly] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.SequentialMusicCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneEndTime] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneOffset] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneStartTime] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneVelocity] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MidiGremlin.Chord] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.#ctor(System.Int32[])] Missing &lt;param name=&quot;toneSteps&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Chord.Major] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.WithBaseTone(MidiGremlin.Tone)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.WithBaseTone(MidiGremlin.Tone)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.WithBaseTone(MidiGremlin.Tone)] Missing &lt;param name=&quot;tone&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ChordInstance.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ChordInstance.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Instrument.Octave] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;music&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;tone&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Instrument.Play(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Instrument.Scale] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.MusicObject.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.MusicObject.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.#ctor(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;tone&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.#ctor(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.#ctor(MidiGremlin.Tone,System.Int32,System.Int32)] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.Duration] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.OctaveOffset] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;scale&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;offset&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(MidiGremlin.Scale,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;offset&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Note.OffsetBy(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})] Missing &lt;param name=&quot;velocity&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.Tone] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Note.Velocity] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Orchestra.#ctor(MidiGremlin.IMidiOut)] Missing &lt;param name=&quot;output&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Orchestra.AddInstrument] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Orchestra.AddInstrument] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.#ctor(MidiGremlin.MusicObject[])] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.#ctor(System.Collections.Generic.IEnumerable{MidiGremlin.MusicObject})] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Clear] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;array&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;arrayIndex&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.ParralelMusicCollection.Count] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetEnumerator] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.GetEnumerator] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.ParralelMusicCollection.IsReadOnly] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.ParralelMusicCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.ParralelMusicCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Pause.#ctor(System.Int32)] Missing &lt;param name=&quot;duration&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Pause.Duration] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Pause.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Pause.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Scale.#ctor(MidiGremlin.Tone[])] Missing &lt;param name=&quot;tones&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Scale.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.#ctor(MidiGremlin.MusicObject[])] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.#ctor(System.Collections.Generic.IEnumerable{MidiGremlin.MusicObject})] Missing &lt;param name=&quot;children&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Add(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Clear] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Contains(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;array&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.CopyTo(MidiGremlin.MusicObject[],System.Int32)] Missing &lt;param name=&quot;arrayIndex&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.SequentialMusicCollection.Count] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetChildren] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetChildren] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetEnumerator] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.GetEnumerator] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.IndexOf(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Insert(System.Int32,MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.SequentialMusicCollection.IsReadOnly] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.SequentialMusicCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;returns&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.Remove(MidiGremlin.MusicObject)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.SequentialMusicCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneEndTime] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneOffset] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneStartTime] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneVelocity] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
   Processed 98 topic(s)
   112 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-Bygningen af projektet &quot;C:\Users\Christian Skole\Desktop\Ny mappe\Working\BuildTopics.proj&quot; er f‘rdig (standarddestinationer).
+Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj&quot; er f‘rdig (standarddestinationer).
 
 Build lykkedes.
 
-Forl›bet tid 00:00:39.07
-    Last step completed in 00:00:39,5202
+Forl›bet tid 00:00:09.91
+    Last step completed in 00:00:10,4426
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0000
+    Last step completed in 00:00:00,0156
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -280,91 +280,91 @@ E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website
+Processing website files in C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website
 Processed 98 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to C:\Users\Christian Skole\Desktop\Ny mappe\Working\WebKI.xml
-Saving website table of contents to C:\Users\Christian Skole\Desktop\Ny mappe\Working\WebTOC.xml
-    Last step completed in 00:00:02,2260
+Saving website keyword index to C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\WebKI.xml
+Saving website table of contents to C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\WebTOC.xml
+    Last step completed in 00:00:01,3416
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\styles\branding.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\index.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\search.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\SearchHelp.aspx
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\SearchHelp.inc.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\SearchHelp.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\Web.Config
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\Search.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\TocClose.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\TocCollapsed.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\TocExpanded.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\icons\TocOpen.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\scripts\branding-Website.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Christian Skole\Desktop\Ny mappe\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00,7140
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,1560
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -375,21 +375,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00,3210
+</plugIn>    Last step completed in 00:00:00,4212
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 228 files for the website content
-    Last step completed in 00:00:01,1410
+    Last step completed in 00:00:00,9360
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,1830
+    Last step completed in 00:00:00,2184
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 14-04-2016 13:04:54.  Total time: 00:01:33,6325
+Build completed successfully at 14-04-2016 13:31:57.  Total time: 00:00:19,2908
 
 </buildStep>
 </shfbBuild>
