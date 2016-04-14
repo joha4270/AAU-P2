@@ -4,7 +4,8 @@ using System.Collections.Generic;
 namespace MidiGremlin
 {
     ///<summary>
-    ///TEST TEST TEST TEST
+    ///The class Note constructs an individual and simpel sound.
+    ///The class consists of duration, tone, velocity and a Octaveoffset whichs represents which octave the note is placed at.
     ///</summary>
     public class Note : MusicObject
     {

@@ -3,7 +3,6 @@
 namespace MidiGremlin
 {
     ///<summary>
-    ///TEST TEST TEST TEST
     ///The Instrument class implements the method Play which plays the saved music from the class MusicObject.
     ///</summary>
     public class Instrument

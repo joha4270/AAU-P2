@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\Users\Christian Skole\Desktop\MIDIGremlinDokumentation\sandcastle.shfbproj" started="14-04-2016 13:53:06">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\Users\Christian Skole\Desktop\MIDIGremlinDokumentation\sandcastle.shfbproj" started="14-04-2016 14:12:09">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -28,16 +28,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, Engelsk (USA))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0100
+</plugIn>    Last step completed in 00:00:00,0080
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0000
+    Last step completed in 00:00:00,0020
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build startede 14-04-2016 13:53:08.
+Build startede 14-04-2016 14:12:11.
 Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\GenerateRefInfo.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
@@ -57,13 +57,13 @@ Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumenta
 
 Build lykkedes.
 
-Forl›bet tid 00:00:01.58
-    Last step completed in 00:00:02,0550
+Forl›bet tid 00:00:01.63
+    Last step completed in 00:00:02,0311
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build startede 14-04-2016 13:53:10.
+Build startede 14-04-2016 14:12:13.
 Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\TransformManifest.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -84,12 +84,12 @@ Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumenta
 
 Build lykkedes.
 
-Forl›bet tid 00:00:01.23
-    Last step completed in 00:00:01,5810
+Forl›bet tid 00:00:01.12
+    Last step completed in 00:00:01,4751
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0080
+    Last step completed in 00:00:00,0070
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -103,7 +103,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build startede 14-04-2016 13:53:11.
+Build startede 14-04-2016 14:12:14.
 Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\GenerateIntermediateTOC.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -115,26 +115,26 @@ Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumenta
 
 Build lykkedes.
 
-Forl›bet tid 00:00:00.87
+Forl›bet tid 00:00:00.73
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01,2270
+    Last step completed in 00:00:01,1261
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,1830
+    Last step completed in 00:00:00,2060
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00,0030
+    Last step completed in 00:00:00,0040
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
-Build startede 14-04-2016 13:53:13.
+Build startede 14-04-2016 14:12:15.
 Projekt &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj&quot; p† node 1 (standarddestinationer).
 Projektfilen indeholder ToolsVersion=&quot;12.0&quot;. Dette v‘rkt›jss‘t er muligvis ukendt eller mangler. Hvis det er tilf‘ldet, kan du muligvis l›se problemet ved at installere den rette version af MSBuild. Buildet kan ogs† v‘re gennemtvunget til et bestemt ToolsVersion som f›lge af vores politik. Projektet behandles, som om det var ToolsVersion=&quot;4.0&quot;. Du kan finde flere oplysninger p† http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildTopics:
@@ -143,7 +143,6 @@ BuildTopics:
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [T:MidiGremlin.Chord] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.#ctor(System.Int32[])] Missing &lt;param name=&quot;toneSteps&quot;/&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:MidiGremlin.Chord.Major] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:MidiGremlin.Chord.Name(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
@@ -256,19 +255,19 @@ BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneO
 BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneStartTime] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:MidiGremlin.SingleBeat.ToneVelocity] Missing &lt;summary&gt; documentation [C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj]
   Processed 98 topic(s)
-  112 warning(s)
+  111 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Bygningen af projektet &quot;C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\BuildTopics.proj&quot; er f‘rdig (standarddestinationer).
 
 Build lykkedes.
 
-Forl›bet tid 00:00:10.26
-    Last step completed in 00:00:10,7761
+Forl›bet tid 00:00:09.66
+    Last step completed in 00:00:10,1326
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0020
+    Last step completed in 00:00:00,0040
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -285,7 +284,7 @@ Processed 98 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\WebKI.xml
 Saving website table of contents to C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\WebTOC.xml
-    Last step completed in 00:00:01,4310
+    Last step completed in 00:00:01,2791
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -364,7 +363,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Christian Skole\Documents\AAU-P2\dokumentation Sandcastle\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00,6870
+    Last step completed in 00:00:00,1140
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -375,21 +374,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00,6360
+</plugIn>    Last step completed in 00:00:00,4290
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 228 files for the website content
-    Last step completed in 00:00:00,6730
+    Last step completed in 00:00:00,9551
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,6230
+    Last step completed in 00:00:00,2650
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 14-04-2016 13:53:27.  Total time: 00:00:20,9062
+Build completed successfully at 14-04-2016 14:12:28.  Total time: 00:00:18,7861
 
 </buildStep>
 </shfbBuild>

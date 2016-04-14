@@ -9,9 +9,8 @@ namespace MidiGremlin
      *  Potentially an object signifying a pitch and a duration. (Tone)
      */
     ///<summary>
-    ///TEST TEST TEST TEST
-    ///The class Music object is an abstract class that represents several different musicstructures. 
-    ///It handles the individual tones, pauses, and a sequence of tones or accords
+    ///The class Music object is an abstract class that represents several different music structures. 
+    ///It handles the individual tones, pauses, and a sequence of tones or chords
     ///</summary>
     public abstract class MusicObject
     {

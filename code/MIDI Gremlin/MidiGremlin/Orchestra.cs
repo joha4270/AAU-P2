@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace MidiGremlin
 {
     ///<summary>
-    ///TEST TEST TEST TEST
     ///The Orchestra class creates new instances of the instrument class
     ///It works as a compilation for these instruments.
     ///</summary>

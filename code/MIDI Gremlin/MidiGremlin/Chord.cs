@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 namespace MidiGremlin
 {
+    ///<summary>
+    ///The class Chord is used to construct and define the different chords.
+    ///</summary>
     public class Chord
     {
-        ///<summary>
-        ///TEST TEST TEST TEST
-        ///The chord
-        ///</summary>
         public Chord(params int[] toneSteps)
         {
                 throw new NotImplementedException();
