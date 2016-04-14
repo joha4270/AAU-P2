@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MidiGremlin
 {
+    ///<summary>
+    ///TEST TEST TEST TEST
+    ///</summary>
     class Orchestra
     {
         //TODO:List of instruments

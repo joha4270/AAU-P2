@@ -2,6 +2,9 @@
 
 namespace MidiGremlin
 {
+    ///<summary>
+    ///TEST TEST TEST TEST
+    ///</summary>
     public class Scale
     {
         public Scale(params Tone[] tones)

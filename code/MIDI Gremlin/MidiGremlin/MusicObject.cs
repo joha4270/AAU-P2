@@ -8,6 +8,9 @@ namespace MidiGremlin
      *  Potentially an object signifying a pause. (Take a guess)
      *  Potentially an object signifying a pitch and a duration. (Tone)
      */
+    ///<summary>
+    ///TEST TEST TEST TEST
+    ///</summary>
     public abstract class MusicObject
     {
         internal abstract IEnumerator<SingleBeat> GetChildren ();

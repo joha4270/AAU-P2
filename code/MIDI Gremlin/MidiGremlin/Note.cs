@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace MidiGremlin
 {
+    ///<summary>
+    ///TEST TEST TEST TEST
+    ///</summary>
     public class Note : MusicObject
     {
         public int Duration { get; set; }

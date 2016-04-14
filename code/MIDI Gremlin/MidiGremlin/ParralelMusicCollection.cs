@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace MidiGremlin
 {
+    ///<summary>
+    ///TEST TEST TEST TEST
+    ///</summary>
     public class ParralelMusicCollection : MusicObject, IList<MusicObject>
     {
         public ParralelMusicCollection (IEnumerable<MusicObject> children)
