@@ -1,77 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="d1264293-cf69-41c8-92f0-a4986077338d" Title="MidiGremlin" Url="html/9f58322b-7f6f-d860-cb18-70e598b9b666.htm">
-    <HelpTOCNode Id="7a0cad98-6735-4d67-98d6-e2c253f58e3b" Title="Chord Class" Url="html/65cd68a6-78f1-c39e-4d6d-a86f475dc293.htm">
+  <HelpTOCNode Id="5a5b3072-cb52-46de-b576-94b2649a7fe2" Title="MidiGremlin" Url="html/9f58322b-7f6f-d860-cb18-70e598b9b666.htm">
+    <HelpTOCNode Id="b952a2df-3158-4808-b9d1-1ecb1bb22586" Title="Chord Class" Url="html/65cd68a6-78f1-c39e-4d6d-a86f475dc293.htm">
       <HelpTOCNode Title="Chord Constructor " Url="html/22d6aa4b-7768-6c8a-38da-4592d5088649.htm" />
       <HelpTOCNode Title="Chord Constructor " Url="html/ed77d213-c783-9809-5b45-04d8b6fc21a3.htm" />
-      <HelpTOCNode Id="a33b387a-4904-4b59-9587-6007f774c506" Title="Chord Properties" Url="html/6791cb73-2a98-e8a8-6671-21fba5c38392.htm">
+      <HelpTOCNode Id="1b1ccd47-86ca-4885-b6b7-69273deba2f9" Title="Chord Properties" Url="html/6791cb73-2a98-e8a8-6671-21fba5c38392.htm">
         <HelpTOCNode Title="Major Property " Url="html/217a4b3d-264b-c972-e6de-42e5ab06c604.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="76d28980-b660-4e83-8066-7708f934c940" Title="Chord Methods" Url="html/4fd05564-1147-f76a-13fd-d2e93ccbca96.htm">
+      <HelpTOCNode Id="976de746-381f-4fb8-861b-128b1451121f" Title="Chord Methods" Url="html/4fd05564-1147-f76a-13fd-d2e93ccbca96.htm">
         <HelpTOCNode Title="Name Method " Url="html/761f8ddd-c576-b9ed-a4f7-4f82855b81e5.htm" />
         <HelpTOCNode Title="WithBaseTone Method " Url="html/f61d2a41-286f-02ef-1605-8c574afabeea.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="31f11ac0-f1ec-4ce6-89e5-c1e7064d5de2" Title="ChordInstance Class" Url="html/9183b171-1630-a8ec-3046-eccd5f3ed4ab.htm">
+    <HelpTOCNode Id="53e70bb2-bd47-4d76-a8b8-45d405cdba0a" Title="ChordInstance Class" Url="html/9183b171-1630-a8ec-3046-eccd5f3ed4ab.htm">
       <HelpTOCNode Title="ChordInstance Constructor " Url="html/cb20524b-4a6b-cce1-f9d3-2da4f63954de.htm" />
-      <HelpTOCNode Id="2fd84c2e-18d8-4236-9b0f-da27339c303d" Title="ChordInstance Methods" Url="html/07d91bf2-b545-60dd-3421-54b47f5b4f10.htm">
+      <HelpTOCNode Id="94d29d77-16bc-4abf-b618-1a68bcc45297" Title="ChordInstance Methods" Url="html/07d91bf2-b545-60dd-3421-54b47f5b4f10.htm">
         <HelpTOCNode Title="GetChildren Method " Url="html/b593fe24-60b3-85d7-c5b8-0c6354f9df12.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="IMidiOut Interface" Url="html/1e0de45c-5363-b39a-e739-e8cf22353cba.htm" />
-    <HelpTOCNode Id="83e21c73-a08a-4a87-8417-be91466c354f" Title="Instrument Class" Url="html/bf179790-4d7c-76dc-ef1d-79c769198c0d.htm">
+    <HelpTOCNode Id="5241da8d-777d-473f-9a07-2e9611000bf9" Title="Instrument Class" Url="html/bf179790-4d7c-76dc-ef1d-79c769198c0d.htm">
       <HelpTOCNode Title="Instrument Constructor " Url="html/a9fdcc7e-bd63-7459-a3b7-c8e4ad07367b.htm" />
-      <HelpTOCNode Id="dc3ebd66-98d3-42e7-81fe-d86ed69fe8cb" Title="Instrument Properties" Url="html/a5046615-3815-129e-706f-8d8fad65d631.htm">
+      <HelpTOCNode Id="fa2ab170-53f3-47ad-9bcc-0921d310ad0f" Title="Instrument Properties" Url="html/a5046615-3815-129e-706f-8d8fad65d631.htm">
         <HelpTOCNode Title="Octave Property " Url="html/1e59f7b0-80ee-9570-988e-8ad77e0fb738.htm" />
         <HelpTOCNode Title="Scale Property " Url="html/4bffdbd0-3b66-df52-f237-b4406edf4769.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8caa7c3c-02af-4439-91eb-81921f5b71a0" Title="Instrument Methods" Url="html/d634d574-e132-35d1-e2bf-199f7f544294.htm">
-        <HelpTOCNode Id="0203704a-9162-4993-b578-9772b467fdc5" Title="Play Method " Url="html/cc2989a1-58f6-7932-892c-2a5d7b6b24fb.htm">
+      <HelpTOCNode Id="557ac479-b5df-4bb3-94ff-b9c367c52475" Title="Instrument Methods" Url="html/d634d574-e132-35d1-e2bf-199f7f544294.htm">
+        <HelpTOCNode Id="553feabd-cf7a-40ec-96f5-bc6825e6cd4c" Title="Play Method " Url="html/cc2989a1-58f6-7932-892c-2a5d7b6b24fb.htm">
           <HelpTOCNode Title="Play Method (MusicObject)" Url="html/fc11dc14-d12e-454f-303d-c98f7bfcaa55.htm" />
           <HelpTOCNode Title="Play Method (Tone, Int32, Int32)" Url="html/5471618d-5328-fb9c-04ea-72510758ca88.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="457df200-1af0-48f6-99fb-6f8531cce0df" Title="MusicObject Class" Url="html/3cb38fa1-c1f0-1579-b0be-620ccc550ab6.htm">
+    <HelpTOCNode Id="29b597a0-328e-423e-b101-65feaf0c2c20" Title="MusicObject Class" Url="html/3cb38fa1-c1f0-1579-b0be-620ccc550ab6.htm">
       <HelpTOCNode Title="MusicObject Constructor " Url="html/0d5688f6-71c3-188d-1892-bdcc8a1ec22d.htm" />
-      <HelpTOCNode Id="c5c0932b-1936-4234-8ea3-ac9025584609" Title="MusicObject Methods" Url="html/895c4996-1f44-b28c-ddf5-25b40798ed33.htm">
+      <HelpTOCNode Id="766319c2-275f-4164-a81a-12d9b1cdea8c" Title="MusicObject Methods" Url="html/895c4996-1f44-b28c-ddf5-25b40798ed33.htm">
         <HelpTOCNode Title="GetChildren Method " Url="html/e25b908e-50fd-9a11-be35-64bd78fc8caf.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="fc58eef3-9d64-4159-bc3c-bf0b1024b8ed" Title="Note Class" Url="html/af71b68b-fb78-ae0a-3cd6-6527e067d6a9.htm">
+    <HelpTOCNode Id="b972751f-a03d-45be-8728-1442cb2bc11f" Title="Note Class" Url="html/af71b68b-fb78-ae0a-3cd6-6527e067d6a9.htm">
       <HelpTOCNode Title="Note Constructor " Url="html/cb898ad9-0435-21b3-5016-000af093859a.htm" />
-      <HelpTOCNode Id="8e3347cb-8845-4907-aec8-c658290a89cd" Title="Note Properties" Url="html/754e8b60-46f3-03c2-6986-8c3bb1961dd9.htm">
+      <HelpTOCNode Id="7b2cbd62-13a0-4c79-b30e-50dc4b8a379a" Title="Note Properties" Url="html/754e8b60-46f3-03c2-6986-8c3bb1961dd9.htm">
         <HelpTOCNode Title="Duration Property " Url="html/8733f35f-a073-2d9f-b138-ee232bc3d966.htm" />
         <HelpTOCNode Title="OctaveOffset Property " Url="html/eb435ded-346f-023a-fb99-da64092806af.htm" />
         <HelpTOCNode Title="Tone Property " Url="html/7beb13cd-cb6c-eace-35fe-0b5d14c2afee.htm" />
         <HelpTOCNode Title="Velocity Property " Url="html/af8a28f4-f25b-88ac-7062-ef83b6b9cf7a.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="171e2d65-49c7-4be4-93d4-89d123ef9667" Title="Note Methods" Url="html/3c3919e1-459f-9aa4-d032-52446e242bdb.htm">
+      <HelpTOCNode Id="f9d030bf-744e-4679-b273-cd7aa9172b21" Title="Note Methods" Url="html/3c3919e1-459f-9aa4-d032-52446e242bdb.htm">
         <HelpTOCNode Title="GetChildren Method " Url="html/789b4093-866c-1473-ed11-826b3508a861.htm" />
-        <HelpTOCNode Id="6479dfc4-fbd5-46e1-b1c3-96146fa45f9e" Title="OffsetBy Method " Url="html/b1f3ad44-9967-a3be-9d6b-543bf8934585.htm">
+        <HelpTOCNode Id="cabfdd00-8c7c-4a20-8503-5a7843817cbf" Title="OffsetBy Method " Url="html/b1f3ad44-9967-a3be-9d6b-543bf8934585.htm">
           <HelpTOCNode Title="OffsetBy Method (Int32, Nullable(Int32), Nullable(Int32))" Url="html/d78ee624-f76b-816e-9d9e-161d97700265.htm" />
           <HelpTOCNode Title="OffsetBy Method (Scale, Int32, Nullable(Int32), Nullable(Int32))" Url="html/6bdeb013-dbbc-28a6-8527-0a00664fd57e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8165e96f-87b1-41e2-9fee-0379ffcbd7a5" Title="Orchestra Class" Url="html/b497ebdb-e441-6dd9-3f10-b496b735f28e.htm">
+    <HelpTOCNode Id="81ef5af0-794d-4d1a-93f8-283cd6ec9bde" Title="Orchestra Class" Url="html/b497ebdb-e441-6dd9-3f10-b496b735f28e.htm">
       <HelpTOCNode Title="Orchestra Constructor " Url="html/e18539c0-8bb1-3746-e7c7-7fa288e2c5f4.htm" />
-      <HelpTOCNode Id="95eb73c6-75db-4568-b22a-cf123ba30c5e" Title="Orchestra Methods" Url="html/b9ef970b-3fff-1498-43a7-06d1734c51ce.htm">
+      <HelpTOCNode Id="0fd9ebc3-c216-49fc-a76a-76e8f5526804" Title="Orchestra Methods" Url="html/b9ef970b-3fff-1498-43a7-06d1734c51ce.htm">
         <HelpTOCNode Title="AddInstrument Method " Url="html/fff8a241-f2b2-2afa-3999-a3061e317951.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2a25234d-7c4a-46e8-a466-73fb31b36ce3" Title="ParralelMusicCollection Class" Url="html/25bdd4eb-9746-6aa6-1831-33f37da7d488.htm">
-      <HelpTOCNode Id="0027dd11-2534-4068-bb43-6573c76e16c4" Title="ParralelMusicCollection Constructor " Url="html/64004faf-0917-1601-fd10-ddb3eb82b2ee.htm">
+    <HelpTOCNode Id="e74d06c4-5bb3-4e17-b49c-5f492ae455db" Title="ParralelMusicCollection Class" Url="html/25bdd4eb-9746-6aa6-1831-33f37da7d488.htm">
+      <HelpTOCNode Id="8c2f8ed9-274f-4f99-a48f-a1ca0dc424fa" Title="ParralelMusicCollection Constructor " Url="html/64004faf-0917-1601-fd10-ddb3eb82b2ee.htm">
         <HelpTOCNode Title="ParralelMusicCollection Constructor (MusicObject[])" Url="html/ad312d8e-1a5c-33ff-e4c1-5a9f146662a5.htm" />
         <HelpTOCNode Title="ParralelMusicCollection Constructor (IEnumerable(MusicObject))" Url="html/53ef8130-2317-bc06-c060-c56db0d2c76c.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0cf290ba-e655-4c1f-921a-3545ca52afc9" Title="ParralelMusicCollection Properties" Url="html/26373610-4eea-dd03-f581-7edd9c305f02.htm">
+      <HelpTOCNode Id="72522a11-e0da-486e-80dd-313e4836e39e" Title="ParralelMusicCollection Properties" Url="html/26373610-4eea-dd03-f581-7edd9c305f02.htm">
         <HelpTOCNode Title="Count Property " Url="html/3a63c94e-52dd-faf4-e8dc-b56cabee4e11.htm" />
         <HelpTOCNode Title="IsReadOnly Property " Url="html/365082a0-6c4f-629d-6e53-a08b635a691e.htm" />
         <HelpTOCNode Title="Item Property " Url="html/9117a8e4-27fc-6765-e5a1-d18528f93c5e.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3486b7e1-ca2a-4c4b-88b5-1c329eb16566" Title="ParralelMusicCollection Methods" Url="html/b02a4da4-7501-c82e-2751-6343d3386957.htm">
+      <HelpTOCNode Id="86ea0eca-6b19-47ad-a33d-e100130eff4b" Title="ParralelMusicCollection Methods" Url="html/b02a4da4-7501-c82e-2751-6343d3386957.htm">
         <HelpTOCNode Title="Add Method " Url="html/64cc50ea-76ac-8c63-a967-297479b74597.htm" />
         <HelpTOCNode Title="Clear Method " Url="html/72e98110-1e1d-9c96-a188-f836527fb6ad.htm" />
         <HelpTOCNode Title="Contains Method " Url="html/a2c10b8d-af91-78c3-c751-9b66a3eaa030.htm" />
@@ -84,32 +84,32 @@
         <HelpTOCNode Title="RemoveAt Method " Url="html/7185d8a7-0a0f-f524-e34e-d6388d231b10.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="73e9f7ac-6610-46a9-a16f-b2d496cbcfca" Title="Pause Class" Url="html/14c94af4-9922-cd13-c113-4f359b88d48f.htm">
+    <HelpTOCNode Id="e0f5e4d8-55bc-4ba1-a0f2-6e5d479aac03" Title="Pause Class" Url="html/14c94af4-9922-cd13-c113-4f359b88d48f.htm">
       <HelpTOCNode Title="Pause Constructor " Url="html/edfe6e7e-ef8d-7288-ecd5-b8593afbf03b.htm" />
-      <HelpTOCNode Id="6ff87528-e225-4c87-917e-8bbf990fb4d6" Title="Pause Properties" Url="html/d2be25a4-ffd9-482b-d182-2da274d6b4ab.htm">
+      <HelpTOCNode Id="6269c760-b32e-464e-a799-688f0f3b334b" Title="Pause Properties" Url="html/d2be25a4-ffd9-482b-d182-2da274d6b4ab.htm">
         <HelpTOCNode Title="Duration Property " Url="html/ba6c9218-df52-3d36-b57f-1da9d73cd530.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="93ad754c-7b85-4e59-9a15-bc4e59e9e5e8" Title="Pause Methods" Url="html/08fc5649-6128-89fa-633c-dbd948f619c4.htm">
+      <HelpTOCNode Id="bd7aa7d0-d689-48bb-a5a1-672cf084da39" Title="Pause Methods" Url="html/08fc5649-6128-89fa-633c-dbd948f619c4.htm">
         <HelpTOCNode Title="GetChildren Method " Url="html/29ee979f-e57f-0320-81df-8d962b9ab172.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c2cd8d1a-55cc-46a6-8f20-f5f018eaaf01" Title="Scale Class" Url="html/94ff2325-67b9-bd63-2dac-b88791475d3c.htm">
+    <HelpTOCNode Id="474c2f0a-550a-42ca-8978-5090160103c5" Title="Scale Class" Url="html/94ff2325-67b9-bd63-2dac-b88791475d3c.htm">
       <HelpTOCNode Title="Scale Constructor " Url="html/9e99e944-fece-fe50-6449-589f0bc7066f.htm" />
-      <HelpTOCNode Id="81d4337a-ef5a-4179-b9b2-2979c211664d" Title="Scale Properties" Url="html/b8e18d5e-d903-d4ee-778a-07a6645b0a81.htm">
+      <HelpTOCNode Id="a6a34a6d-a69a-4a10-87c7-691b375619b3" Title="Scale Properties" Url="html/b8e18d5e-d903-d4ee-778a-07a6645b0a81.htm">
         <HelpTOCNode Title="Item Property " Url="html/105dadc1-0eb0-d7a4-c1a2-ef58360579d1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b727df51-2d2b-42e2-9b17-312e5d1b3154" Title="SequentialMusicCollection Class" Url="html/99863a5c-15aa-8444-284e-30a4eb4e0650.htm">
-      <HelpTOCNode Id="a4e0e226-b3e4-48ce-ad71-befb81d0c2ea" Title="SequentialMusicCollection Constructor " Url="html/1451a551-2e1d-bd66-6977-b301514ac3eb.htm">
+    <HelpTOCNode Id="369c8d44-fb5c-4c77-bbdf-3d05c55c2290" Title="SequentialMusicCollection Class" Url="html/99863a5c-15aa-8444-284e-30a4eb4e0650.htm">
+      <HelpTOCNode Id="26274652-401b-40ea-a160-f711c4b4a6f7" Title="SequentialMusicCollection Constructor " Url="html/1451a551-2e1d-bd66-6977-b301514ac3eb.htm">
         <HelpTOCNode Title="SequentialMusicCollection Constructor (MusicObject[])" Url="html/54ba9380-e68e-7c27-a7c4-1384843080b2.htm" />
         <HelpTOCNode Title="SequentialMusicCollection Constructor (IEnumerable(MusicObject))" Url="html/44eadb8a-544f-ead4-44a4-c1e17d9bcf07.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="01431da2-1ae4-4ad5-8a7a-3a3afbf32a50" Title="SequentialMusicCollection Properties" Url="html/3c7bce8a-24bc-36b9-9070-e372b0fb0451.htm">
+      <HelpTOCNode Id="993ff0a8-e36b-4947-8a8a-2b773eee0250" Title="SequentialMusicCollection Properties" Url="html/3c7bce8a-24bc-36b9-9070-e372b0fb0451.htm">
         <HelpTOCNode Title="Count Property " Url="html/bcdad43b-7b28-e6b3-0da4-443295769bc6.htm" />
         <HelpTOCNode Title="IsReadOnly Property " Url="html/a6c8853a-5c48-d5b7-be1f-4d47b0f3cd9c.htm" />
         <HelpTOCNode Title="Item Property " Url="html/9c7ddefd-bf05-c75c-9285-b0ff9fb86b28.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e8c14687-ffd8-43cb-9484-67684cfd840e" Title="SequentialMusicCollection Methods" Url="html/3137cf01-dbb8-d66a-f304-a6cbd5b02a51.htm">
+      <HelpTOCNode Id="8f875078-555b-4f88-a308-2abc92f854fd" Title="SequentialMusicCollection Methods" Url="html/3137cf01-dbb8-d66a-f304-a6cbd5b02a51.htm">
         <HelpTOCNode Title="Add Method " Url="html/ca5fd9dd-88db-4e69-9ee8-70970c4f5ccc.htm" />
         <HelpTOCNode Title="Clear Method " Url="html/ad7cde3e-e07a-08c4-0658-9c62a9da10f8.htm" />
         <HelpTOCNode Title="Contains Method " Url="html/82a91862-5e0c-5f01-c0e4-70fb6f63a165.htm" />
@@ -122,8 +122,8 @@
         <HelpTOCNode Title="RemoveAt Method " Url="html/e9356e84-383c-f5d4-3706-e4a1b7184f2b.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c1d560a5-b302-4994-95a3-eeb884cde2dc" Title="SingleBeat Structure" Url="html/82db41cd-c46a-aa92-6254-a73c86c1f7ee.htm">
-      <HelpTOCNode Id="4e70ffbc-e23c-4c60-b1a7-0d7bea583993" Title="SingleBeat Fields" Url="html/2b05d8db-b913-1c2a-edd8-ff71a7686048.htm">
+    <HelpTOCNode Id="b1adabf9-b202-440b-ac8a-9cce3304463b" Title="SingleBeat Structure" Url="html/82db41cd-c46a-aa92-6254-a73c86c1f7ee.htm">
+      <HelpTOCNode Id="bafbf7c2-bc95-4a0b-88bb-668d109e8d15" Title="SingleBeat Fields" Url="html/2b05d8db-b913-1c2a-edd8-ff71a7686048.htm">
         <HelpTOCNode Title="ToneEndTime Field" Url="html/80aec04f-f9ed-56a6-d0b9-ebf0b0578b0f.htm" />
         <HelpTOCNode Title="ToneOffset Field" Url="html/58752507-d6ff-8543-d140-2573be49dc6c.htm" />
         <HelpTOCNode Title="ToneStartTime Field" Url="html/c1d9be0a-279d-3270-cc0e-c4e5335f8e69.htm" />

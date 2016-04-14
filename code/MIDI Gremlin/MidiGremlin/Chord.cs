@@ -9,6 +9,7 @@ namespace MidiGremlin
     {
         ///<summary>
         ///TEST TEST TEST TEST
+        ///The chord
         ///</summary>
         public Chord(params int[] toneSteps)
         {

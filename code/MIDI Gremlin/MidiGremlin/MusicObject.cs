@@ -10,6 +10,8 @@ namespace MidiGremlin
      */
     ///<summary>
     ///TEST TEST TEST TEST
+    ///The class Music object is an abstract class that represents several different musicstructures. 
+    ///It handles the individual tones, pauses, and a sequence of tones or accords
     ///</summary>
     public abstract class MusicObject
     {
