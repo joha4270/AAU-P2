@@ -4,9 +4,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MidiGremlin
+    ///<summary>
+    ///This class implements a chord function
+    ///</summary>
 {
     public class Chord
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="toneSteps"></param>
         public Chord(params int[] toneSteps)
         {
                 throw new NotImplementedException();
